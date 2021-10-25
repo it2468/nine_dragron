@@ -1,19 +1,22 @@
 <template>
   <div id="app">
-    <comp-menu />
     <transition name="slide" mode="out-in">
+      <comp-menu />
       <router-view></router-view>
+      <comp-footer />
     </transition>
   </div>
 </template>
 
 <script>
 import CompMenu from "./components/CompMenu";
+import CompFooter from "./components/CompFooter";
 
 export default {
   name: "app",
   components: {
     CompMenu,
+    CompFooter,
   },
   data() {
     return {};
