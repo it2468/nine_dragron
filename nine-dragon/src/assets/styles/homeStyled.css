@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
 @font-face {
   font-family: 'SVN-A Love Of Thunder';
-  src: url("SVN-SVN-A Love Of Thunder.ttf") format("truetype"); }
+  src: url("../fonts/SVN-SVN-A Love Of Thunder.ttf") format("truetype"); }
 #content {
   padding: 0 80px 75px 80px;
   display: flex; }
