@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap");
+@import url(./global.css);
+@import url(./homeStyled.css);
+@font-face {
+  font-family: SVN-A Love Of Thunder;
+  src: url("../fonts/SVN-SVN-A Love Of Thunder.ttf"); }
 body {
   font-family: 'Roboto Slab', serif;
   font-size: 20px; }
@@ -44,4 +50,11 @@ body {
     padding: 20px;
     font-family: SVN-A Love Of Thunder; }
 
-/*# sourceMappingURL=chanePasswordPopup.css.map */
+.card-history .wrapper-header {
+  background-image: url("../images/rectangle-2.png"); }
+.card-history__banner .btn-title {
+  background: url("../images/background-btn-3.png") center no-repeat;
+  background-size: contain;
+  border: none; }
+
+/*# sourceMappingURL=style.css.map */
