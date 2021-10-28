@@ -5,7 +5,8 @@
 #content {
   padding: 0 80px 75px 80px;
   display: flex; }
-  #content .left-sidebar, #content .right-sidebar {
+  #content .left-sidebar,
+  #content .right-sidebar {
     flex: 0 0 325px; }
   #content .main-content {
     flex-grow: 1; }
@@ -14,7 +15,7 @@
   width: 100%; }
 
 .btn-title {
-  color: #391F00;
+  color: #391f00;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -28,7 +29,9 @@
   background-image: url(../assets/images/background-btn-1.png);
   background-size: 100% 100%; }
 
-th, td, tr {
+th,
+td,
+tr {
   border: none !important;
   color: #ffffff; }
 
@@ -39,7 +42,7 @@ th {
   font-size: 20px;
   line-height: 26px;
   text-transform: uppercase;
-  color: #F9EA75; }
+  color: #f9ea75; }
 
 .count ul {
   width: 325px;
@@ -52,7 +55,7 @@ th {
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
-  color: #F9EA75; }
+  color: #f9ea75; }
 
 span.count-item-title {
   width: 150px;
@@ -70,10 +73,132 @@ span.haicham {
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
-  line-height: 44px;
-  color: #391F00;
-  background-image: url(../assets/images/background-btn-1.png);
-  background-size: 100% 100%;
-  border-radius: 40px; }
+  height: 56px;
+  width: 216px;
+  color: #391f00;
+  display: flex;
+  background-image: url(../images/bg-btn-item.png);
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 9px; }
+.right-sidebar .btn-item-box {
+  text-align: center;
+  margin-bottom: 15px; }
+.right-sidebar .right-sidebar-box ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  justify-content: space-around; }
+.right-sidebar .right-sidebar-box li {
+  flex: 0 0 50%;
+  max-width: 140px;
+  margin: 15px 0;
+  text-align: center; }
+  .right-sidebar .right-sidebar-box li .price {
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 5px;
+    color: #d34c2a;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px; }
+  .right-sidebar .right-sidebar-box li .btn-buy {
+    margin: 0 auto;
+    font-family: 'SVN-A Love Of Thunder';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6px;
+    height: 33px;
+    width: 99px;
+    color: #391f00;
+    background-image: url(../images/bg-btn-3.png);
+    background-size: 100% 100%;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat; }
+
+.left-sidebar {
+  text-align: center; }
+  .left-sidebar .btn-download-box {
+    margin-bottom: 35px; }
+    .left-sidebar .btn-download-box .btn-download {
+      font-family: 'SVN-A Love Of Thunder';
+      font-size: 35px;
+      line-height: 48px;
+      color: #ffffff;
+      height: 68px;
+      width: 304px;
+      padding-bottom: 12px;
+      background-image: url(../images/background-btn-2.png);
+      background-size: 100% 100%;
+      border: none;
+      background-color: transparent;
+      background-repeat: no-repeat; }
+  .left-sidebar .btn-lg-reg-box .btn-register,
+  .left-sidebar .btn-lg-reg-box .btn-login {
+    display: block;
+    font-family: 'SVN-A Love Of Thunder';
+    font-size: 32px;
+    color: #391f00;
+    height: 50px;
+    width: 219px;
+    padding-bottom: 9px;
+    background-size: 100% 100%;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    margin: 5px auto; }
+  .left-sidebar .btn-lg-reg-box .btn-register {
+    background-image: url(../images/background-btn-4.png); }
+  .left-sidebar .btn-lg-reg-box .btn-login {
+    background-image: url(../images/background-btn-5.png); }
+  .left-sidebar .mission-box {
+    margin-top: 36px;
+    font-family: 'SVN-A Love Of Thunder';
+    background-image: url(../images/bg-mission.png);
+    background-size: 100% 100%;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 305px;
+    height: 428px;
+    display: flex;
+    flex-direction: column; }
+    .left-sidebar .mission-box .title-mission {
+      font-size: 27px;
+      padding-top: 10px;
+      display: block;
+      height: 65px; }
+    .left-sidebar .mission-box ul {
+      flex-grow: 1;
+      padding: 0;
+      text-align: center;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin-bottom: 24px; }
+      .left-sidebar .mission-box ul li {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../images/bg-mission-item.png);
+        border: none;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        width: 196px;
+        height: 49px;
+        font-size: 20px; }
 
 /*# sourceMappingURL=homeStyled.css.map */
