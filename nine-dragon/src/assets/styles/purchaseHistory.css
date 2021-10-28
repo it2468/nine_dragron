@@ -1,0 +1,8 @@
+.purchase-history .wrapper-header {
+  height: 500px; }
+  .purchase-history .wrapper-header .btn-title {
+    padding: 35px 25px; }
+.purchase-history .table {
+  max-width: 100% !important; }
+
+/*# sourceMappingURL=purchaseHistory.css.map */

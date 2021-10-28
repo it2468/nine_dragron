@@ -2,11 +2,54 @@
   .wrapper-header {
     background-image: url('../images/rectangle-2.png');
   }
+  .wrapper-header {
+    height: 550px;
+  }
   &__banner {
+    margin-top: 100px;
     .btn-title {
       background: url("../images/background-btn-3.png") center no-repeat;
       background-size: contain;
       border: none;
+    }
+    .count {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+      ul {
+        padding-left: 0;
+        li {
+          list-style: none;
+          display: flex;
+          flex-wrap: wrap;
+          .count-item-title {
+            flex: 0 0 50%;
+          }
+        }
+      }
+    }
+  }
+  .wrapper-table {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    .table {
+      max-width: 900px;
+      td {
+        font-size: 14px;
+      }
+      &__deposit {
+        text-align: center;
+      }
+    }
+  }
+  .wrapper-footer {
+    .footer-item2 {
+      padding-bottom: 10px;
+      margin-top: 10px;
+      background-image: url('../images/Group.png');
     }
   }
 }

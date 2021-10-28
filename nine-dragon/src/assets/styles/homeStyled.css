@@ -23,11 +23,10 @@
   font-family: 'SVN-A Love Of Thunder';
   margin: 0 auto;
   display: block;
-  width: 551px;
   border-radius: 40px;
-  height: 118px;
   background-image: url(../assets/images/background-btn-1.png);
-  background-size: 100% 100%; }
+  background-size: contain;
+  padding: 25px; }
 
 th,
 td,

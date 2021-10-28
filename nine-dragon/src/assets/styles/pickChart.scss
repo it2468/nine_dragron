@@ -1,0 +1,65 @@
+$color_brown: #391F00;
+$color_white: #FFFBF1;
+$color_red: #E70000;
+.pick-chart {
+  @extend .card-history;
+  @extend .purchase-history;
+  .wrapper-header {
+    height: auto;
+    .btn-title {
+      padding: 40px 25px;
+      img {
+        width: 40px;
+      }
+    }
+  }
+  .charts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 50px;
+    .chart {
+      background-size: cover;
+      background-image: url('../images/window-2.png');
+      &__title {
+        font-size: 40px;
+        font-family: 'SVN-A Love Of Thunder';
+        display: flex;
+        justify-content: center;
+      }
+      &__content {
+        text-align: center;
+        color: $color_white;
+        font-size: 20px;
+        font-family: SVN-Apple;
+        padding: 20px;
+        line-height: 33px;
+        .name {
+          font-size: 25px;
+        }
+      }
+    }
+    .chart-1 {
+      margin: 0 20px;
+      width: 388px;
+      height: 510px;
+    }
+    .chart-2 {
+      width: 344px;
+      height: 452px;
+    }
+    .chart-3 {
+      width: 313px;
+      height: 411px;
+    }
+  }
+  .wrapper-table {
+    &__title {
+      font-size: 40px;
+      font-family: 'SVN-A Love Of Thunder';
+      color: #FFFFFF;
+      margin: 50px 0;
+    }
+  }
+}
