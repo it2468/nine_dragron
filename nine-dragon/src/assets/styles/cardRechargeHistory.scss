@@ -1,0 +1,12 @@
+.card-history {
+  .wrapper-header {
+    background-image: url('../images/rectangle-2.png');
+  }
+  &__banner {
+    .btn-title {
+      background: url("../images/background-btn-3.png") center no-repeat;
+      background-size: contain;
+      border: none;
+    }
+  }
+}

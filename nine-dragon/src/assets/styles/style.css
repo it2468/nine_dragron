@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap");
+@import url(./global.css);
+@import url(./homeStyled.css);
+@font-face {
+  font-family: SVN-A Love Of Thunder;
+  src: url("../fonts/SVN-SVN-A Love Of Thunder.ttf"); }
+.menu .image-logo img {
+  border: 2px solid #FFC700;
+  width: 100px; }
+.menu .navbar-nav, .menu .dropdown-menu {
+  background: rgba(33, 33, 33, 0.8);
+  border-radius: 4px;
+  border: 2px solid #FDFFA5; }
+  .menu .navbar-nav li a, .menu .dropdown-menu li a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E5E5E5;
+    text-decoration: none;
+    padding: 10px; }
+    .menu .navbar-nav li a:hover, .menu .dropdown-menu li a:hover {
+      color: #391F00;
+      font-weight: bold;
+      background-image: linear-gradient(#c9c7b6, #CE8F20); }
+.menu .navbar-nav {
+  margin-top: 35px; }
+.menu .main-menu {
+  flex: 0 0 70%;
+  justify-content: space-between; }
+.menu .menu-right {
+  border: 2px solid #FEFDA1; }
+  .menu .menu-right a {
+    background: -webkit-linear-gradient(#FFAA05, #FDFFA5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: SVN-A Love Of Thunder !important; }
+    .menu .menu-right a::after {
+      display: none; }
+  .menu .menu-right img {
+    border: none; }
+  .menu .menu-right .plus-icon {
+    width: 30px; }
+  .menu .menu-right .dropdown-menu-right {
+    padding: 0 10px;
+    margin-top: 10px; }
+    .menu .menu-right .dropdown-menu-right li:hover {
+      background-color: transparent; }
+    .menu .menu-right .dropdown-menu-right a {
+      padding: 10px 0;
+      border-bottom: 1px solid #FEFDA1; }
+      .menu .menu-right .dropdown-menu-right a:hover {
+        background-color: transparent; }
+
+@media all and (min-width: 992px) {
+  .dropdown-menu li {
+    position: relative; }
+
+  .dropdown-menu .submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px; }
+
+  .dropdown-menu .submenu-left {
+    right: 100%;
+    left: auto; }
+
+  .dropdown-menu > li:hover {
+    background-color: #f1f1f1; }
+
+  .dropdown-menu > li:hover > .submenu {
+    display: block; } }
+@media (max-width: 991px) {
+  .dropdown-menu .dropdown-menu {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    margin-bottom: .5rem; } }
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px; }
+
+.chane-password .modal-content {
+  background-color: #FFFBF1;
+  border-radius: 10px; }
+.chane-password .modal-header {
+  justify-content: center; }
+  .chane-password .modal-header .modal-title {
+    font-size: 40px;
+    color: #391F00;
+    font-family: SVN-A Love Of Thunder; }
+  .chane-password .modal-header .btn-close {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    font-size: 40px;
+    color: #391F00;
+    font-family: SVN-A Love Of Thunder; }
+.chane-password .modal-body .required-icon {
+  color: #E70000; }
+.chane-password .modal-body .form-group {
+  margin-bottom: 20px; }
+  .chane-password .modal-body .form-group label {
+    font-weight: bold;
+    color: #391F00; }
+  .chane-password .modal-body .form-group input {
+    border-color: #391F00;
+    background-color: #FFFBF1; }
+    .chane-password .modal-body .form-group input::placeholder {
+      color: #391F00; }
+.chane-password .modal-body .submit-btn {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center; }
+  .chane-password .modal-body .submit-btn button {
+    background: url("../images/background-btn-3.png") center no-repeat;
+    background-size: contain;
+    border: none;
+    font-size: 25px;
+    color: #391F00;
+    font-weight: bold;
+    padding: 20px;
+    font-family: SVN-A Love Of Thunder; }
+
+.card-history .wrapper-header {
+  background-image: url("../images/rectangle-2.png"); }
+.card-history__banner .btn-title {
+  background: url("../images/background-btn-3.png") center no-repeat;
+  background-size: contain;
+  border: none; }
+
+/*# sourceMappingURL=style.css.map */
