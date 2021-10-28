@@ -9,51 +9,93 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+
+    <script src="../assets/js/menu.js"></script>
   </head>
   <body>
     <div id="wapper" class="card-history">
       <div id="wapper1">
-        <section class="wrapper-header">
-          <div class="image-logo">
-            <img
-              src="../assets/images/logo.png"
-              class="d-inline-block align-top"
-              alt="Kitten"
-            />
-          </div>
-          <!--Menu-->
-          <div class="menu">
-            <ul>
-              <li><a href="#">Bảng top</a></li>
-              <li><a href="#">Fanpages</a></li>
-              <li><a href="#">Bang hội</a></li>
-              <li><a href="#">Cẩm nang</a></li>
-              <li><a href="#">Hướng dẫn nạp thẻ</a></li>
-            </ul>
-          </div>
-          <!--Content of-->
-          <div class="title card-history__banner">
-            <button class="btn-title">LỊCH SỬ NẠP THẺ</button>
-            <div class="count">
-              <ul>
-                <li>
-                  <span class="count-item-title">Tổng số tiền nạp</span
-                  ><span class="haicham">:</span>
-                  123456 manga đ
+        <div class="wrapper-header">
+          <div class="container">
+
+            <!-- ============= MENU ============== -->
+            <nav class="navbar navbar-expand-lg navbar-dark menu">
+             <div class="container-fluid image-logo">
+                <a class="navbar-brand" href="#">
+                  <img
+                  src="../assets/images/logo.png"
+                  class="d-inline-block align-top"
+                  alt="Kitten"
+                  />
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="main_nav">
+              
+            
+              <ul class="navbar-nav main-menu">
+                <li class="nav-item active"> <a class="nav-link" href="#">Bảng top </a> </li>
+                <li class="nav-item"><a class="nav-link" href="#"> Fanpages </a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> Bang hội </a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Cẩm nang  </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#"> Cẩm nang 1 </a></li>
+                    <li><a class="dropdown-item" href="#"> Cẩm nan 2 </a>
+                    <li><a class="dropdown-item" href="#"> Cẩm nang 3 </a></li>
+                    </ul>
                 </li>
-                <li class="li-center">
-                  <span class="count-item-title">Tổng số khuyến mại</span
-                  ><span class="haicham">:</span>
-                  678910 manga đ
-                </li>
-                <li>
-                  <span class="count-item-title">Mốc nạp</span
-                  ><span class="haicham">:</span>56783 manga đ
+                <li class="nav-item"><a class="nav-link" href="#"> Hướng dẫn nạp thẻ </a></li>
+              </ul>
+            
+              <ul class="navbar-nav ms-auto menu-right">
+                <li class="nav-item dropdown">
+                  <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> TAIVM | 1000 MANGA 
+                    <img
+                    src="../assets/images/246775242_573350637308554_2378522869394129709_n.png"
+                    class="plus-icon"
+                    />
+                  </a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                      <li><a class="dropdown-item" href="#"> LỊCH SỬ MUA VẬT PHẨM</a></li>
+                      <li><a class="dropdown-item" href="#"> LỊCH SỬ NẠP THẺ </a></li>
+                      <li><a class="dropdown-item" href="#"> ĐỔI MẬT KHẨU </a></li>
+                      <li><a class="dropdown-item" href="#"> THOÁT </a></li>
+                    </ul>
                 </li>
               </ul>
-            </div>
+            
+              </div>
+             </div>
+            </nav>
+            
+            <!-- ============= MENU END// ============== -->
+
+            <div class="title card-history__banner">
+              <button class="btn-title">LỊCH SỬ NẠP THẺ</button>
+              <div class="count">
+                <ul>
+                  <li>
+                    <span class="count-item-title">Tổng số tiền nạp</span
+                    ><span class="haicham">:</span>
+                    123456 manga đ
+                  </li>
+                  <li class="li-center">
+                    <span class="count-item-title">Tổng số khuyến mại</span
+                    ><span class="haicham">:</span>
+                    678910 manga đ
+                  </li>
+                  <li>
+                    <span class="count-item-title">Mốc nạp</span
+                    ><span class="haicham">:</span>56783 manga đ
+                  </li>
+                </ul>
+              </div>
           </div>
-        </section>
+        </div>
         <section id="content">
           <table class="table table-dark table-borderless">
             <thead>
