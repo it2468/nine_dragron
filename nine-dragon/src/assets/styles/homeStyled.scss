@@ -181,9 +181,17 @@ span.haicham {
     }
     .btn-register {
       background-image: url(../images/background-btn-4.png);
+      &:hover {
+        background-image: url(../images/bg-btn-reg-hover.png);
+        color: #f7e36f;
+      }
     }
     .btn-login {
       background-image: url(../images/background-btn-5.png);
+      &:hover {
+        background-image: url(../images/bg-btn-log-hover.png);
+        color: #f7e36f;
+      }
     }
   }
   .mission-box {
@@ -228,5 +236,114 @@ span.haicham {
         font-size: 20px;
       }
     }
+  }
+  .countdown-box {
+    margin-top: 40px;
+    .countdown-title {
+      font-family: 'SVN-A Love Of Thunder';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 27px;
+      color: #ffffff;
+    }
+  }
+  #countdown-1 {
+    color: #ffffff;
+    height: 96px;
+    width: 313px;
+    background-image: url(../images/bg-countdown.png);
+    background-size: 100% 100%;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6px;
+    > div {
+      width: 35px;
+      height: 50px;
+      margin: 0 5px;
+    }
+  }
+}
+.main-content {
+  background-image: url('../images/bg-home-content.png');
+  background-size: 100% 100%;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  .line-header-content {
+    background-image: url('../images/line-moon.png');
+    background-size: 100% 100%;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: calc(100% - 24px);
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 11px;
+  }
+  .embed-link {
+    background-image: url('../images/bg-youtube.png');
+    background-size: 100% 100%;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 580px;
+    height: 325px;
+    padding: 5px 10px;
+    margin: 0 auto;
+    margin-top: 19px;
+  }
+  .main-content-title {
+    font-family: 'SVN-A Love Of Thunder';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  .list-content {
+    padding: 0 40px;
+  }
+  .list-content-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    .list-content-image {
+      flex: 0 0 105px;
+    }
+    .list-content-box {
+      flex-grow: 1;
+      padding-left: 15px;
+    }
+  }
+  .list-content-title {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+  .list-content-brief {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #ffffff;
   }
 }

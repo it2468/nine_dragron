@@ -14,6 +14,7 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
+    <link href="../assets/plugin/timeTo.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
     <div id="wapper">
@@ -55,11 +56,135 @@
                 <li>Rửa bát</li>
               </ul>
             </div>
-            <div>
-              <span>Chương trình sẽ bắt đầu sau</span>
+            <div class="countdown-box">
+              <span class="countdown-title">Chương trình sẽ bắt đầu sau</span>
+              <div id="countdown-1"></div>
             </div>
           </div>
-          <div class="main-content">Main content</div>
+          <div class="main-content">
+            <div class="line-header-content"></div>
+            <div class="embed-link">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/CxhrSjHk-Vw"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div>
+              <h1 class="main-content-title">Tin tức</h1>
+              <ul class="list-content">
+                <li class="list-content-item">
+                  <div class="list-content-image">
+                    <img src="../assets/images/item-content.png" alt="" />
+                  </div>
+                  <div class="list-content-box">
+                    <h3 class="list-content-title">
+                      Golden Time Event: Independence Day Bonus Rates!
+                    </h3>
+                    <p class="list-content-brief">
+                      In celebration the Declaration of Independence, we are
+                      hosting a special Golden Time Event! Starting at midnight,
+                      enjoy our 3x EXP, 3x Skill, and 3x Drop event!
+                    </p>
+                  </div>
+                </li>
+                <li class="list-content-item">
+                  <div class="list-content-image">
+                    <img src="../assets/images/item-content.png" alt="" />
+                  </div>
+                  <div class="list-content-box">
+                    <h3 class="list-content-title">
+                      Golden Time Event: Independence Day Bonus Rates!
+                    </h3>
+                    <p class="list-content-brief">
+                      In celebration the Declaration of Independence, we are
+                      hosting a special Golden Time Event! Starting at midnight,
+                      enjoy our 3x EXP, 3x Skill, and 3x Drop event!
+                    </p>
+                  </div>
+                </li>
+                <li class="list-content-item">
+                  <div class="list-content-image">
+                    <img src="../assets/images/item-content.png" alt="" />
+                  </div>
+                  <div class="list-content-box">
+                    <h3 class="list-content-title">
+                      Golden Time Event: Independence Day Bonus Rates!
+                    </h3>
+                    <p class="list-content-brief">
+                      In celebration the Declaration of Independence, we are
+                      hosting a special Golden Time Event! Starting at midnight,
+                      enjoy our 3x EXP, 3x Skill, and 3x Drop event!
+                    </p>
+                  </div>
+                </li>
+                <li class="list-content-item">
+                  <div class="list-content-image">
+                    <img src="../assets/images/item-content.png" alt="" />
+                  </div>
+                  <div class="list-content-box">
+                    <h3 class="list-content-title">
+                      Golden Time Event: Independence Day Bonus Rates!
+                    </h3>
+                    <p class="list-content-brief">
+                      In celebration the Declaration of Independence, we are
+                      hosting a special Golden Time Event! Starting at midnight,
+                      enjoy our 3x EXP, 3x Skill, and 3x Drop event!
+                    </p>
+                  </div>
+                </li>
+                <li class="list-content-item">
+                  <div class="list-content-image">
+                    <img src="../assets/images/item-content.png" alt="" />
+                  </div>
+                  <div class="list-content-box">
+                    <h3 class="list-content-title">
+                      Golden Time Event: Independence Day Bonus Rates!
+                    </h3>
+                    <p class="list-content-brief">
+                      In celebration the Declaration of Independence, we are
+                      hosting a special Golden Time Event! Starting at midnight,
+                      enjoy our 3x EXP, 3x Skill, and 3x Drop event!
+                    </p>
+                  </div>
+                </li>
+                <li class="list-content-item">
+                  <div class="list-content-image">
+                    <img src="../assets/images/item-content.png" alt="" />
+                  </div>
+                  <div class="list-content-box">
+                    <h3 class="list-content-title">
+                      Golden Time Event: Independence Day Bonus Rates!
+                    </h3>
+                    <p class="list-content-brief">
+                      In celebration the Declaration of Independence, we are
+                      hosting a special Golden Time Event! Starting at midnight,
+                      enjoy our 3x EXP, 3x Skill, and 3x Drop event!
+                    </p>
+                  </div>
+                </li>
+                <li class="list-content-item">
+                  <div class="list-content-image">
+                    <img src="../assets/images/item-content.png" alt="" />
+                  </div>
+                  <div class="list-content-box">
+                    <h3 class="list-content-title">
+                      Golden Time Event: Independence Day Bonus Rates!
+                    </h3>
+                    <p class="list-content-brief">
+                      In celebration the Declaration of Independence, we are
+                      hosting a special Golden Time Event! Starting at midnight,
+                      enjoy our 3x EXP, 3x Skill, and 3x Drop event!
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
           <div class="right-sidebar">
             <div class="btn-item-box">
               <button class="btn-item">Vật phẩm</button>
@@ -111,6 +236,26 @@
       </div>
     </div>
     <!--js------------------------------------------------->
-    <script></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="node_modules/jquery/dist/jquery.min.js"><\/script>'
+        )
+    </script>
+    <script src="../assets/plugin/jquery.time-to.js"></script>
+    <script>
+      $('#countdown-1').timeTo(
+        {
+          seconds: 720,
+          displayHours: false,
+          width: 35,
+          height: 50,
+        },
+        function() {
+          console.log(`sự kiện kết thúc`)
+        }
+      )
+    </script>
   </body>
 </html>
