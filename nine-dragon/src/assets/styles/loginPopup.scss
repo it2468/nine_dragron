@@ -1,0 +1,23 @@
+$color_brown: #391F00;
+$color_white: #FFFBF1;
+$color_red: #E70000;
+.login-popup {
+    @extend .chane-password;
+    .form-detail {
+      font-family: 'Roboto Slab';
+      color: $color_brown;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .register-btn {
+        color: $color_red;
+        font-weight: bold;
+        text-decoration: $color_red;
+      }
+      .repassword-btn {
+        font-weight: bold;
+        color: $color_brown;
+        text-decoration: $color_brown;
+      }
+    }
+}
