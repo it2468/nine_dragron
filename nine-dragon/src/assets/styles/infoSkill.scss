@@ -1,0 +1,72 @@
+$color_brown: #391f00;
+$color_white: #fffbf1;
+$color_red: #e70000;
+.info-skill {
+  .wrapper-header {
+    background-image: url('../images/rectangle-2.png');
+    height: 500px;
+    .btn-title {
+      padding: 20px 25px 35px 25px;
+    }
+  }
+  &__banner {
+    margin-top: 100px;
+    .btn-title {
+      background: url('../images/background-btn-3.png') center no-repeat;
+      background-size: contain;
+      border: none;
+    }
+  }
+
+  .wrapper-footer {
+    .footer-item2 {
+      padding-bottom: 10px;
+      margin-top: 10px;
+      background-image: url('../images/Group.png');
+    }
+  }
+
+  .table {
+    max-width: 100% !important;
+  }
+  .list-content-skill {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    .list-content-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
+      flex: 0 0 50%;
+      padding: 0 25px;
+      .list-content-image {
+        flex: 0 0 105px;
+      }
+      .list-content-box {
+        flex-grow: 1;
+        padding-left: 15px;
+      }
+    }
+    .list-content-title {
+      font-family: 'Roboto Slab';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 20px;
+
+      text-transform: uppercase;
+
+      color: #ffffff;
+    }
+    .list-content-brief {
+      font-family: 'Roboto Slab';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 18px;
+
+      color: #ffffff;
+    }
+  }
+}

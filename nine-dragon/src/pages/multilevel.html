@@ -1,73 +1,130 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="keywords" content="htmlcss bootstrap, multi level menu, submenu, treeview nav menu examples" />
-<meta name="description" content="Bootstrap 5 navbar multilevel treeview examples for any type of project, Bootstrap 5" />  
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="keywords"
+      content="htmlcss bootstrap, multi level menu, submenu, treeview nav menu examples"
+    />
+    <meta
+      name="description"
+      content="Bootstrap 5 navbar multilevel treeview examples for any type of project, Bootstrap 5"
+    />
 
-<title>Menu</title>
+    <title>Menu</title>
 
-<link rel="stylesheet" type="text/css" href="../assets/styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/styles/style.css" />
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
 
-<script src="../assets/js/menu.js"></script>
+    <script src="../assets/js/menu.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- ============= COMPONENT ============== -->
+      <nav class="navbar navbar-expand-lg navbar-dark menu main-menu">
+        <div class="container-fluid image-logo">
+          <a class="navbar-brand" href="Home.html">
+            <img
+              src="../assets/images/logo.png"
+              class="d-inline-block align-top"
+              alt="Kitten"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main_nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main_nav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="PickChart.html">Bảng top </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Fanpages </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Bang hội </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                >
+                  Cẩm nang
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Hướng dẫn làm nhiệm vụ
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="InfoSkill.html">
+                      Thông tin kỹ năng
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Cẩm nang 3 </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="CardRechargeIntro.html">
+                  Hướng dẫn nạp thẻ
+                </a>
+              </li>
+            </ul>
 
-</head>
-<body>
-<div class="container">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link  dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                >
+                  TAIVM | 1000 MANGA
+                </a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                  <li>
+                    <a class="dropdown-item" href="/CardRechargeHistory">
+                      LỊCH SỬ MUA VẬT PHẨM</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="CardRechargeHistory.html">
+                      LỊCH SỬ NẠP THẺ
+                    </a>
+                  </li>
+                  <li><a class="dropdown-item" href="#"> ĐỔI MẬT KHẨU </a></li>
+                  <li><a class="dropdown-item" href="#"> THOÁT </a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-<!-- ============= COMPONENT ============== -->
-<nav class="navbar navbar-expand-lg navbar-dark menu main-menu">
- <div class="container-fluid image-logo">
- 	 <a class="navbar-brand" href="#">
-      <img
-      src="../assets/images/logo.png"
-      class="d-inline-block align-top"
-      alt="Kitten"
-      />
-    </a>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  <div class="collapse navbar-collapse" id="main_nav">
-	
-
-	<ul class="navbar-nav">
-		<li class="nav-item active"> <a class="nav-link" href="#">Bảng top </a> </li>
-		<li class="nav-item"><a class="nav-link" href="#"> Fanpages </a></li>
-		<li class="nav-item"><a class="nav-link" href="#"> Bang hội </a></li>
-		<li class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Cẩm nang  </a>
-		    <ul class="dropdown-menu">
-			  <li><a class="dropdown-item" href="#"> Cẩm nang 1 </a></li>
-			  <li><a class="dropdown-item" href="#"> Cẩm nan 2 </a>
-				<li><a class="dropdown-item" href="#"> Cẩm nang 3 </a></li>
-		    </ul>
-		</li>
-    <li class="nav-item"><a class="nav-link" href="#"> Hướng dẫn nạp thẻ </a></li>
-	</ul>
-
-	<ul class="navbar-nav ms-auto">
-		<li class="nav-item dropdown">
-			<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> TAIVM | 1000 MANGA </a>
-		    <ul class="dropdown-menu dropdown-menu-right">
-				<li><a class="dropdown-item" href="#"> LỊCH SỬ MUA VẬT PHẨM</a></li>
-				<li><a class="dropdown-item" href="#"> LỊCH SỬ NẠP THẺ </a></li>
-				<li><a class="dropdown-item" href="#"> ĐỔI MẬT KHẨU </a></li>
-				<li><a class="dropdown-item" href="#"> THOÁT </a></li>
-		    </ul>
-		</li>
-	</ul>
-
-  </div>
- </div>
-</nav>
-
-<!-- ============= COMPONENT END// ============== -->
-</div>
-
-</body>
+      <!-- ============= COMPONENT END// ============== -->
+    </div>
+  </body>
 </html>
