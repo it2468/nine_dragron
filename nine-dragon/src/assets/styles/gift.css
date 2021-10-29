@@ -1,0 +1,69 @@
+.info-skill .wrapper-header {
+  background-image: url("../images/rectangle-2.png");
+  height: 500px; }
+.info-skill .gift__banner {
+  margin-top: 100px; }
+  .info-skill .gift__banner .btn-title {
+    background: url("../images/background-btn-3.png") center no-repeat;
+    background-size: contain;
+    border: none;
+    width: 329px;
+    height: 100px;
+    padding: 0;
+    padding-bottom: 6px; }
+.info-skill .wrapper-footer .footer-item2 {
+  padding-bottom: 10px;
+  margin-top: 10px;
+  background-image: url("../images/Group.png"); }
+.info-skill .table {
+  max-width: 100% !important; }
+.info-skill .list-content-gift {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; }
+  .info-skill .list-content-gift .list-content-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+    flex: 0 0 100%;
+    padding: 0 25px; }
+    .info-skill .list-content-gift .list-content-item .list-content-image {
+      flex: 0 0 105px; }
+    .info-skill .list-content-gift .list-content-item .list-content-box {
+      flex-grow: 1;
+      padding-left: 15px;
+      padding-right: 60px; }
+    .info-skill .list-content-gift .list-content-item .btn-receive-box {
+      flex: 0 0 128px; }
+      .info-skill .list-content-gift .list-content-item .btn-receive-box .btn-receive {
+        background: url("../images/background-btn-3.png") center no-repeat;
+        background-size: 100% 100%;
+        border: none;
+        font-family: 'SVN-A Love Of Thunder';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 27px;
+        color: #391f00;
+        width: 128px;
+        height: 42px;
+        padding: 0;
+        padding-bottom: 6px; }
+  .info-skill .list-content-gift .list-content-title {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ffffff; }
+  .info-skill .list-content-gift .list-content-brief {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff; }
+
+/*# sourceMappingURL=gift.css.map */
