@@ -5,7 +5,7 @@ Use "@extend .card-history !optional" if the extend should be able to fail.
 
 
 Backtrace:
-F:\Freelance\nine_dragron\nine-dragon\src\assets\styles\pickChart.scss:5
+E:\project\nine_dragron\nine-dragon\src\assets\styles\pickChart.scss:5
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/extend.rb:56:in `block in check_extends_fired!'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/util/subset_map.rb:105:in `block in each_value'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/util/subset_map.rb:105:in `each'
