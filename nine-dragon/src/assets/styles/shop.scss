@@ -1,0 +1,15 @@
+$color_brown: #391f00;
+$color_white: #fffbf1;
+$color_red: #e70000;
+.shop {
+  @extend .card-history;
+  @extend .purchase-history;
+  .wrapper-header {
+    .btn-title {
+      padding: 40px 25px;
+      img {
+        width: 40px;
+      }
+    }
+  }
+}

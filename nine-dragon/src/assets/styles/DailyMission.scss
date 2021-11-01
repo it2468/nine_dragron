@@ -1,0 +1,60 @@
+$color_brown: #391f00;
+$color_white: #fffbf1;
+$color_red: #e70000;
+.daily-mission {
+  @extend .card-history;
+  @extend .purchase-history;
+  .wrapper-header {
+    .btn-title {
+      padding: 40px 25px;
+      img {
+        width: 40px;
+      }
+    }
+  }
+  .wrapper-table {
+    .th-action {
+      text-align: center;
+    }
+    .action-box {
+      .btn-nhan {
+        background: url('../images/btn-nhan.png') center no-repeat;
+        background-size: contain;
+        border: none;
+        width: 100px;
+        height: 30px;
+        margin: 0 5px;
+        padding: 0;
+        padding-bottom: 6px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 20px;
+
+        text-transform: uppercase;
+
+        color: #ffffff;
+      }
+      .btn-tra {
+        background: url('../images/btn-tra.png') center no-repeat;
+        background-size: contain;
+        border: none;
+        width: 100px;
+        height: 30px;
+        margin: 0 5px;
+        padding: 0;
+        padding-bottom: 6px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 20px;
+
+        text-transform: uppercase;
+
+        color: #2a2122;
+      }
+    }
+  }
+}
