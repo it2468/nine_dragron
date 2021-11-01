@@ -146,6 +146,10 @@ span.haicham {
         border: none;
         background-color: transparent;
         background-repeat: no-repeat;
+        &:hover {
+          background-image: url(../images/bg-btn-reg-hover.png);
+          color: #f7e36f;
+        }
       }
     }
   }

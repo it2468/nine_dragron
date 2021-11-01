@@ -4,7 +4,7 @@ body {
   background-color: #2a2122 !important;
   background-repeat: no-repeat;
   background-position: top; }
-  body.home-page-body {
+  body.home-page-body, body.user-home-body {
     background-image: url("../images/banner-full.png"); }
 
 .wrapper-header {
@@ -16,7 +16,7 @@ body {
 .wrapper-footer {
   height: 119px;
   text-align: center;
-  background: #241C1D;
+  background: #241c1d;
   padding: 43px 0; }
 
 .wrapper-footer .footer-item {
@@ -25,6 +25,6 @@ body {
   font-weight: 300;
   font-size: 14px;
   line-height: 18px;
-  color: #FFFFFF; }
+  color: #ffffff; }
 
 /*# sourceMappingURL=global.css.map */

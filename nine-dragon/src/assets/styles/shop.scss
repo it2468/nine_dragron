@@ -4,11 +4,132 @@ $color_red: #e70000;
 .shop {
   @extend .card-history;
   @extend .purchase-history;
+
   .wrapper-header {
+    height: 375px;
     .btn-title {
-      padding: 40px 25px;
+      padding: 20px 35px;
+      width: 340px;
       img {
-        width: 40px;
+        width: 35px;
+        padding-bottom: 5px;
+      }
+      &::after {
+        content: none;
+      }
+      &:hover {
+        color: #391f00;
+      }
+    }
+    .card-history__banner {
+      margin-top: 75px;
+      .shop-dropdown {
+        width: max-content;
+        margin: 0 auto;
+        .btn-title ::after {
+          content: none;
+        }
+
+        .dropdown-menu {
+          padding: 15px 25px;
+          width: 340px;
+          background-image: url(../images/bg-dropdown-menu-shop.png);
+          background-size: 100% 100%;
+          border: none;
+          background-color: transparent;
+          background-repeat: no-repeat;
+          .dropdown-item {
+            height: 77px;
+            margin: 25px 0;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-family: 'SVN-A Love Of Thunder';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 22px;
+            text-align: center;
+            text-transform: uppercase;
+
+            color: #ffffff;
+            &.item-1 {
+              background-image: url(../images/up-btn-1.png);
+              background-size: 100% 100%;
+              border: none;
+              background-color: transparent;
+              background-repeat: no-repeat;
+            }
+            &.item-2 {
+              background-image: url(../images/up-btn-2.png);
+              background-size: 100% 100%;
+              border: none;
+              background-color: transparent;
+              background-repeat: no-repeat;
+            }
+            &.item-3 {
+              background-image: url(../images/up-btn-3.png);
+              background-size: 100% 100%;
+              border: none;
+              background-color: transparent;
+              background-repeat: no-repeat;
+            }
+          }
+        }
+      }
+    }
+  }
+  .wrapper-content-shop {
+    margin-bottom: 70px;
+    ul,
+    li {
+      list-style-type: none;
+    }
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      li {
+        flex: 0 0 25%;
+        padding: 0 12px;
+        margin-bottom: 50px;
+      }
+    }
+    .list-content-image {
+      text-align: center;
+    }
+    .list-content-box {
+      text-align: center;
+      .list-content-price {
+        font-family: 'SVN-A Love Of Thunder';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin: 5px 0 15px 0;
+      }
+      .btn-buy {
+        margin: 0 auto;
+        font-family: 'SVN-A Love Of Thunder';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px 6px 10px;
+        color: #391f00;
+        background-image: url(../images/bg-btn-3.png);
+        background-size: 100% 100%;
+        border: none;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        &:hover {
+          background-image: url(../images/bg-btn-reg-hover.png);
+          color: #f7e36f;
+        }
       }
     }
   }
