@@ -1,40 +1,30 @@
-.card-history .wrapper-header {
-  background-image: url("../images/rectangle-2.png"); }
-.card-history .wrapper-header {
-  height: 550px; }
-.card-history__banner {
-  margin-top: 100px; }
-  .card-history__banner .btn-title {
-    background: url("../images/background-btn-3.png") center no-repeat;
-    background-size: contain;
-    border: none; }
-  .card-history__banner .count {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 30px; }
-    .card-history__banner .count ul {
-      padding-left: 0; }
-      .card-history__banner .count ul li {
-        list-style: none;
-        display: flex;
-        flex-wrap: wrap; }
-        .card-history__banner .count ul li .count-item-title {
-          flex: 0 0 50%; }
-.card-history .wrapper-table {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 50px;
-  flex-wrap: wrap; }
-  .card-history .wrapper-table .table {
-    max-width: 900px; }
-    .card-history .wrapper-table .table td {
-      font-size: 14px; }
-    .card-history .wrapper-table .table__deposit {
-      text-align: center; }
-.card-history .wrapper-footer .footer-item2 {
-  padding-bottom: 10px;
-  margin-top: 10px;
-  background-image: url("../images/Group.png"); }
+/*
+Sass::SyntaxError: ".card-history" failed to @extend ".purchase-history".
+The selector ".purchase-history" was not found.
+Use "@extend .purchase-history !optional" if the extend should be able to fail.
 
-/*# sourceMappingURL=cardRechargeHistory.css.map */
+
+Backtrace:
+E:\project\nine_dragron\nine-dragon\src\assets\styles\cardRechargeHistory.scss:3
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/extend.rb:56:in `block in check_extends_fired!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/util/subset_map.rb:105:in `block in each_value'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/util/subset_map.rb:105:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/util/subset_map.rb:105:in `each_value'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/extend.rb:51:in `check_extends_fired!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/extend.rb:16:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:39:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Sass::SyntaxError: \".card-history\" failed to @extend \".purchase-history\".\A The selector \".purchase-history\" was not found.\A Use \"@extend .purchase-history !optional\" if the extend should be able to fail.\A "; }

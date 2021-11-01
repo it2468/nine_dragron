@@ -1,69 +1,30 @@
-.info-skill .wrapper-header {
-  background-image: url("../images/rectangle-2.png");
-  height: 500px; }
-.info-skill .gift__banner {
-  margin-top: 100px; }
-  .info-skill .gift__banner .btn-title {
-    background: url("../images/background-btn-3.png") center no-repeat;
-    background-size: contain;
-    border: none;
-    width: 329px;
-    height: 100px;
-    padding: 0;
-    padding-bottom: 6px; }
-.info-skill .wrapper-footer .footer-item2 {
-  padding-bottom: 10px;
-  margin-top: 10px;
-  background-image: url("../images/Group.png"); }
-.info-skill .table {
-  max-width: 100% !important; }
-.info-skill .list-content-gift {
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap; }
-  .info-skill .list-content-gift .list-content-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 45px;
-    flex: 0 0 100%;
-    padding: 0 25px; }
-    .info-skill .list-content-gift .list-content-item .list-content-image {
-      flex: 0 0 105px; }
-    .info-skill .list-content-gift .list-content-item .list-content-box {
-      flex-grow: 1;
-      padding-left: 15px;
-      padding-right: 60px; }
-    .info-skill .list-content-gift .list-content-item .btn-receive-box {
-      flex: 0 0 128px; }
-      .info-skill .list-content-gift .list-content-item .btn-receive-box .btn-receive {
-        background: url("../images/background-btn-3.png") center no-repeat;
-        background-size: 100% 100%;
-        border: none;
-        font-family: 'SVN-A Love Of Thunder';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 27px;
-        color: #391f00;
-        width: 128px;
-        height: 42px;
-        padding: 0;
-        padding-bottom: 6px; }
-  .info-skill .list-content-gift .list-content-title {
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #ffffff; }
-  .info-skill .list-content-gift .list-content-brief {
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 18px;
-    color: #ffffff; }
+/*
+Sass::SyntaxError: ".gift" failed to @extend ".card-history".
+The selector ".card-history" was not found.
+Use "@extend .card-history !optional" if the extend should be able to fail.
 
-/*# sourceMappingURL=gift.css.map */
+
+Backtrace:
+E:\project\nine_dragron\nine-dragon\src\assets\styles\gift.scss:5
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/extend.rb:56:in `block in check_extends_fired!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/util/subset_map.rb:105:in `block in each_value'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/util/subset_map.rb:105:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/util/subset_map.rb:105:in `each_value'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/extend.rb:51:in `check_extends_fired!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/extend.rb:16:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:39:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Sass::SyntaxError: \".gift\" failed to @extend \".card-history\".\A The selector \".card-history\" was not found.\A Use \"@extend .card-history !optional\" if the extend should be able to fail.\A "; }

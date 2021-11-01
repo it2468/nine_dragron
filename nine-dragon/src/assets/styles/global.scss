@@ -2,7 +2,13 @@
 
 
 body{
+    background-image: url("../images/rectangle-2.png");
     background-color: #2a2122 !important;
+    background-repeat: no-repeat;
+    background-position: top;
+    &.home-page-body {
+        background-image: url("../images/banner-full.png");
+    }
 }
 
 .wrapper-header {
@@ -10,11 +16,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     height: 500px;
-
-    background-image: url("../images/banner-full.png");
-    background-position: 0 0;
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
 .wrapper-footer {
     height: 119px;

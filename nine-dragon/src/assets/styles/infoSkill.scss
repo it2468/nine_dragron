@@ -2,9 +2,10 @@ $color_brown: #391f00;
 $color_white: #fffbf1;
 $color_red: #e70000;
 .info-skill {
+  @extend .card-history;
+  @extend .purchase-history;
   .wrapper-header {
-    background-image: url('../images/rectangle-2.png');
-    height: 500px;
+    height: 550px;
     .btn-title {
       padding: 20px 25px 35px 25px;
     }

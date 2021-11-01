@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
 body {
-  background-color: #2a2122 !important; }
+  background-image: url("../images/rectangle-2.png");
+  background-color: #2a2122 !important;
+  background-repeat: no-repeat;
+  background-position: top; }
+  body.home-page-body {
+    background-image: url("../images/banner-full.png"); }
 
 .wrapper-header {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  height: 500px;
-  background-image: url("../images/banner-full.png");
-  background-position: 0 0;
-  background-size: 100%;
-  background-repeat: no-repeat; }
+  height: 500px; }
 
 .wrapper-footer {
   height: 119px;

@@ -130,10 +130,6 @@ body {
     padding: 20px;
     font-family: SVN-A Love Of Thunder; }
 
-.card-history .wrapper-header, .pick-chart .wrapper-header, .reputation-ranking .wrapper-header, .daily-mission .wrapper-header, .shop .wrapper-header {
-  background-image: url("../images/rectangle-2.png"); }
-.card-history .wrapper-header, .pick-chart .wrapper-header, .reputation-ranking .wrapper-header, .daily-mission .wrapper-header, .shop .wrapper-header {
-  height: 550px; }
 .card-history__banner {
   margin-top: 100px; }
   .card-history__banner .btn-title {
@@ -153,27 +149,27 @@ body {
         flex-wrap: wrap; }
         .card-history__banner .count ul li .count-item-title {
           flex: 0 0 50%; }
-.card-history .wrapper-table, .pick-chart .wrapper-table, .reputation-ranking .wrapper-table, .daily-mission .wrapper-table, .shop .wrapper-table {
+.card-history .wrapper-table, .pick-chart .wrapper-table, .reputation-ranking .wrapper-table, .info-skill .wrapper-table, .gift .wrapper-table, .daily-mission .wrapper-table, .shop .wrapper-table {
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
   flex-wrap: wrap; }
-  .card-history .wrapper-table .table, .pick-chart .wrapper-table .table, .reputation-ranking .wrapper-table .table, .daily-mission .wrapper-table .table, .shop .wrapper-table .table {
+  .card-history .wrapper-table .table, .pick-chart .wrapper-table .table, .reputation-ranking .wrapper-table .table, .info-skill .wrapper-table .table, .gift .wrapper-table .table, .daily-mission .wrapper-table .table, .shop .wrapper-table .table {
     max-width: 900px; }
-    .card-history .wrapper-table .table td, .pick-chart .wrapper-table .table td, .reputation-ranking .wrapper-table .table td, .daily-mission .wrapper-table .table td, .shop .wrapper-table .table td {
+    .card-history .wrapper-table .table td, .pick-chart .wrapper-table .table td, .reputation-ranking .wrapper-table .table td, .info-skill .wrapper-table .table td, .gift .wrapper-table .table td, .daily-mission .wrapper-table .table td, .shop .wrapper-table .table td {
       font-size: 14px; }
-    .card-history .wrapper-table .table__deposit, .pick-chart .wrapper-table .table__deposit, .reputation-ranking .wrapper-table .table__deposit, .daily-mission .wrapper-table .table__deposit, .shop .wrapper-table .table__deposit {
+    .card-history .wrapper-table .table__deposit, .pick-chart .wrapper-table .table__deposit, .reputation-ranking .wrapper-table .table__deposit, .info-skill .wrapper-table .table__deposit, .gift .wrapper-table .table__deposit, .daily-mission .wrapper-table .table__deposit, .shop .wrapper-table .table__deposit {
       text-align: center; }
-.card-history .wrapper-footer .footer-item2, .pick-chart .wrapper-footer .footer-item2, .reputation-ranking .wrapper-footer .footer-item2, .daily-mission .wrapper-footer .footer-item2, .shop .wrapper-footer .footer-item2 {
+.card-history .wrapper-footer .footer-item2, .pick-chart .wrapper-footer .footer-item2, .reputation-ranking .wrapper-footer .footer-item2, .info-skill .wrapper-footer .footer-item2, .gift .wrapper-footer .footer-item2, .daily-mission .wrapper-footer .footer-item2, .shop .wrapper-footer .footer-item2 {
   padding-bottom: 10px;
   margin-top: 10px;
   background-image: url("../images/Group.png"); }
 
-.purchase-history .wrapper-header, .pick-chart .wrapper-header, .reputation-ranking .wrapper-header, .daily-mission .wrapper-header, .shop .wrapper-header {
+.purchase-history .wrapper-header, .card-history .wrapper-header, .pick-chart .wrapper-header, .reputation-ranking .wrapper-header, .info-skill .wrapper-header, .gift .wrapper-header, .daily-mission .wrapper-header, .shop .wrapper-header {
   height: 500px; }
-  .purchase-history .wrapper-header .btn-title, .pick-chart .wrapper-header .btn-title, .reputation-ranking .wrapper-header .btn-title, .daily-mission .wrapper-header .btn-title, .shop .wrapper-header .btn-title {
+  .purchase-history .wrapper-header .btn-title, .card-history .wrapper-header .btn-title, .pick-chart .wrapper-header .btn-title, .reputation-ranking .wrapper-header .btn-title, .info-skill .wrapper-header .btn-title, .gift .wrapper-header .btn-title, .daily-mission .wrapper-header .btn-title, .shop .wrapper-header .btn-title {
     padding: 35px 25px; }
-.purchase-history .table, .pick-chart .table, .reputation-ranking .table, .daily-mission .table, .shop .table {
+.purchase-history .table, .card-history .table, .pick-chart .table, .reputation-ranking .table, .info-skill .table, .gift .table, .daily-mission .table, .shop .table {
   max-width: 100% !important; }
 
 .pick-chart .wrapper-header, .reputation-ranking .wrapper-header {
@@ -240,8 +236,7 @@ body {
     text-decoration: #391F00; }
 
 .info-skill .wrapper-header {
-  background-image: url("../images/rectangle-2.png");
-  height: 500px; }
+  height: 550px; }
   .info-skill .wrapper-header .btn-title {
     padding: 20px 25px 35px 25px; }
 .info-skill__banner {
@@ -288,36 +283,31 @@ body {
     line-height: 18px;
     color: #ffffff; }
 
-.info-skill .wrapper-header {
-  background-image: url("../images/rectangle-2.png");
-  height: 500px; }
-  .info-skill .wrapper-header .btn-title {
-    padding: 20px 25px 35px 25px; }
-.info-skill__banner {
+.card-recharge-intro__banner {
   margin-top: 100px; }
-  .info-skill__banner .btn-title {
+  .card-recharge-intro__banner .btn-title {
     background: url("../images/background-btn-3.png") center no-repeat;
     background-size: contain;
     border: none; }
-.info-skill .wrapper-footer .footer-item2 {
+.card-recharge-intro .wrapper-footer .footer-item2 {
   padding-bottom: 10px;
   margin-top: 10px;
   background-image: url("../images/Group.png"); }
-.info-skill .table {
+.card-recharge-intro .table {
   max-width: 100% !important; }
-.info-skill .list-content-step {
+.card-recharge-intro .list-content-step {
   padding: 0;
   display: flex;
   flex-wrap: wrap; }
-  .info-skill .list-content-step .list-content-item {
+  .card-recharge-intro .list-content-step .list-content-item {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 30px;
     flex: 0 0 100%; }
-    .info-skill .list-content-step .list-content-item .list-content-step-box {
+    .card-recharge-intro .list-content-step .list-content-item .list-content-step-box {
       flex: 0 0 85px; }
-      .info-skill .list-content-step .list-content-item .list-content-step-box .step-title {
+      .card-recharge-intro .list-content-step .list-content-item .list-content-step-box .step-title {
         font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: bold;
@@ -325,11 +315,11 @@ body {
         line-height: 26px;
         text-transform: uppercase;
         color: #f9ea75; }
-    .info-skill .list-content-step .list-content-item .list-content-box {
+    .card-recharge-intro .list-content-step .list-content-item .list-content-box {
       flex-grow: 1;
       padding-left: 15px;
       padding-top: 5px; }
-  .info-skill .list-content-step .list-content-title {
+  .card-recharge-intro .list-content-step .list-content-title {
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: bold;
@@ -337,7 +327,7 @@ body {
     line-height: 20px;
     text-transform: uppercase;
     color: #ffffff; }
-  .info-skill .list-content-step .list-content-brief {
+  .card-recharge-intro .list-content-step .list-content-brief {
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 300;
@@ -345,12 +335,11 @@ body {
     line-height: 18px;
     color: #ffffff; }
 
-.info-skill .wrapper-header {
-  background-image: url("../images/rectangle-2.png");
+.gift .wrapper-header {
   height: 500px; }
-.info-skill .gift__banner {
+.gift .gift__banner {
   margin-top: 100px; }
-  .info-skill .gift__banner .btn-title {
+  .gift .gift__banner .btn-title {
     background: url("../images/background-btn-3.png") center no-repeat;
     background-size: contain;
     border: none;
@@ -358,32 +347,32 @@ body {
     height: 100px;
     padding: 0;
     padding-bottom: 6px; }
-.info-skill .wrapper-footer .footer-item2 {
+.gift .wrapper-footer .footer-item2 {
   padding-bottom: 10px;
   margin-top: 10px;
   background-image: url("../images/Group.png"); }
-.info-skill .table {
+.gift .table {
   max-width: 100% !important; }
-.info-skill .list-content-gift {
+.gift .list-content-gift {
   padding: 0;
   display: flex;
   flex-wrap: wrap; }
-  .info-skill .list-content-gift .list-content-item {
+  .gift .list-content-gift .list-content-item {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 45px;
     flex: 0 0 100%;
     padding: 0 25px; }
-    .info-skill .list-content-gift .list-content-item .list-content-image {
+    .gift .list-content-gift .list-content-item .list-content-image {
       flex: 0 0 105px; }
-    .info-skill .list-content-gift .list-content-item .list-content-box {
+    .gift .list-content-gift .list-content-item .list-content-box {
       flex-grow: 1;
       padding-left: 15px;
       padding-right: 60px; }
-    .info-skill .list-content-gift .list-content-item .btn-receive-box {
+    .gift .list-content-gift .list-content-item .btn-receive-box {
       flex: 0 0 128px; }
-      .info-skill .list-content-gift .list-content-item .btn-receive-box .btn-receive {
+      .gift .list-content-gift .list-content-item .btn-receive-box .btn-receive {
         background: url("../images/background-btn-3.png") center no-repeat;
         background-size: 100% 100%;
         border: none;
@@ -397,7 +386,7 @@ body {
         height: 42px;
         padding: 0;
         padding-bottom: 6px; }
-  .info-skill .list-content-gift .list-content-title {
+  .gift .list-content-gift .list-content-title {
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: bold;
@@ -405,7 +394,7 @@ body {
     line-height: 20px;
     text-transform: uppercase;
     color: #ffffff; }
-  .info-skill .list-content-gift .list-content-brief {
+  .gift .list-content-gift .list-content-brief {
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 300;

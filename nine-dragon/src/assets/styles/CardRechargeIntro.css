@@ -1,33 +1,28 @@
-.info-skill .wrapper-header {
-  background-image: url("../images/rectangle-2.png");
-  height: 500px; }
-  .info-skill .wrapper-header .btn-title {
-    padding: 20px 25px 35px 25px; }
-.info-skill__banner {
+.card-recharge-intro__banner {
   margin-top: 100px; }
-  .info-skill__banner .btn-title {
+  .card-recharge-intro__banner .btn-title {
     background: url("../images/background-btn-3.png") center no-repeat;
     background-size: contain;
     border: none; }
-.info-skill .wrapper-footer .footer-item2 {
+.card-recharge-intro .wrapper-footer .footer-item2 {
   padding-bottom: 10px;
   margin-top: 10px;
   background-image: url("../images/Group.png"); }
-.info-skill .table {
+.card-recharge-intro .table {
   max-width: 100% !important; }
-.info-skill .list-content-step {
+.card-recharge-intro .list-content-step {
   padding: 0;
   display: flex;
   flex-wrap: wrap; }
-  .info-skill .list-content-step .list-content-item {
+  .card-recharge-intro .list-content-step .list-content-item {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 30px;
     flex: 0 0 100%; }
-    .info-skill .list-content-step .list-content-item .list-content-step-box {
+    .card-recharge-intro .list-content-step .list-content-item .list-content-step-box {
       flex: 0 0 85px; }
-      .info-skill .list-content-step .list-content-item .list-content-step-box .step-title {
+      .card-recharge-intro .list-content-step .list-content-item .list-content-step-box .step-title {
         font-family: 'Roboto Slab';
         font-style: normal;
         font-weight: bold;
@@ -35,11 +30,11 @@
         line-height: 26px;
         text-transform: uppercase;
         color: #f9ea75; }
-    .info-skill .list-content-step .list-content-item .list-content-box {
+    .card-recharge-intro .list-content-step .list-content-item .list-content-box {
       flex-grow: 1;
       padding-left: 15px;
       padding-top: 5px; }
-  .info-skill .list-content-step .list-content-title {
+  .card-recharge-intro .list-content-step .list-content-title {
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: bold;
@@ -47,7 +42,7 @@
     line-height: 20px;
     text-transform: uppercase;
     color: #ffffff; }
-  .info-skill .list-content-step .list-content-brief {
+  .card-recharge-intro .list-content-step .list-content-brief {
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 300;

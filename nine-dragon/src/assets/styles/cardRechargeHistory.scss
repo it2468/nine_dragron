@@ -1,10 +1,6 @@
 .card-history {
-  .wrapper-header {
-    background-image: url('../images/rectangle-2.png');
-  }
-  .wrapper-header {
-    height: 550px;
-  }
+  @extend .card-history;
+  @extend .purchase-history;
   &__banner {
     margin-top: 100px;
     .btn-title {
