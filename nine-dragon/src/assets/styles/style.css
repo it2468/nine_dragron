@@ -149,27 +149,27 @@ body {
         flex-wrap: wrap; }
         .card-history__banner .count ul li .count-item-title {
           flex: 0 0 50%; }
-.card-history .wrapper-table, .pick-chart .wrapper-table, .reputation-ranking .wrapper-table, .info-skill .wrapper-table, .gift .wrapper-table, .daily-mission .wrapper-table, .shop .wrapper-table {
+.card-history .wrapper-table, .pick-chart .wrapper-table, .reputation-ranking .wrapper-table, .info-skill .wrapper-table, .gift .wrapper-table, .daily-mission .wrapper-table, .shop .wrapper-table, .wheel-fortune .wrapper-table {
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
   flex-wrap: wrap; }
-  .card-history .wrapper-table .table, .pick-chart .wrapper-table .table, .reputation-ranking .wrapper-table .table, .info-skill .wrapper-table .table, .gift .wrapper-table .table, .daily-mission .wrapper-table .table, .shop .wrapper-table .table {
+  .card-history .wrapper-table .table, .pick-chart .wrapper-table .table, .reputation-ranking .wrapper-table .table, .info-skill .wrapper-table .table, .gift .wrapper-table .table, .daily-mission .wrapper-table .table, .shop .wrapper-table .table, .wheel-fortune .wrapper-table .table {
     max-width: 900px; }
-    .card-history .wrapper-table .table td, .pick-chart .wrapper-table .table td, .reputation-ranking .wrapper-table .table td, .info-skill .wrapper-table .table td, .gift .wrapper-table .table td, .daily-mission .wrapper-table .table td, .shop .wrapper-table .table td {
+    .card-history .wrapper-table .table td, .pick-chart .wrapper-table .table td, .reputation-ranking .wrapper-table .table td, .info-skill .wrapper-table .table td, .gift .wrapper-table .table td, .daily-mission .wrapper-table .table td, .shop .wrapper-table .table td, .wheel-fortune .wrapper-table .table td {
       font-size: 14px; }
-    .card-history .wrapper-table .table__deposit, .pick-chart .wrapper-table .table__deposit, .reputation-ranking .wrapper-table .table__deposit, .info-skill .wrapper-table .table__deposit, .gift .wrapper-table .table__deposit, .daily-mission .wrapper-table .table__deposit, .shop .wrapper-table .table__deposit {
+    .card-history .wrapper-table .table__deposit, .pick-chart .wrapper-table .table__deposit, .reputation-ranking .wrapper-table .table__deposit, .info-skill .wrapper-table .table__deposit, .gift .wrapper-table .table__deposit, .daily-mission .wrapper-table .table__deposit, .shop .wrapper-table .table__deposit, .wheel-fortune .wrapper-table .table__deposit {
       text-align: center; }
-.card-history .wrapper-footer .footer-item2, .pick-chart .wrapper-footer .footer-item2, .reputation-ranking .wrapper-footer .footer-item2, .info-skill .wrapper-footer .footer-item2, .gift .wrapper-footer .footer-item2, .daily-mission .wrapper-footer .footer-item2, .shop .wrapper-footer .footer-item2 {
+.card-history .wrapper-footer .footer-item2, .pick-chart .wrapper-footer .footer-item2, .reputation-ranking .wrapper-footer .footer-item2, .info-skill .wrapper-footer .footer-item2, .gift .wrapper-footer .footer-item2, .daily-mission .wrapper-footer .footer-item2, .shop .wrapper-footer .footer-item2, .wheel-fortune .wrapper-footer .footer-item2 {
   padding-bottom: 10px;
   margin-top: 10px;
   background-image: url("../images/Group.png"); }
 
-.purchase-history .wrapper-header, .card-history .wrapper-header, .pick-chart .wrapper-header, .reputation-ranking .wrapper-header, .info-skill .wrapper-header, .gift .wrapper-header, .daily-mission .wrapper-header, .shop .wrapper-header {
+.purchase-history .wrapper-header, .card-history .wrapper-header, .pick-chart .wrapper-header, .reputation-ranking .wrapper-header, .info-skill .wrapper-header, .gift .wrapper-header, .daily-mission .wrapper-header, .shop .wrapper-header, .wheel-fortune .wrapper-header {
   height: 500px; }
-  .purchase-history .wrapper-header .btn-title, .card-history .wrapper-header .btn-title, .pick-chart .wrapper-header .btn-title, .reputation-ranking .wrapper-header .btn-title, .info-skill .wrapper-header .btn-title, .gift .wrapper-header .btn-title, .daily-mission .wrapper-header .btn-title, .shop .wrapper-header .btn-title {
+  .purchase-history .wrapper-header .btn-title, .card-history .wrapper-header .btn-title, .pick-chart .wrapper-header .btn-title, .reputation-ranking .wrapper-header .btn-title, .info-skill .wrapper-header .btn-title, .gift .wrapper-header .btn-title, .daily-mission .wrapper-header .btn-title, .shop .wrapper-header .btn-title, .wheel-fortune .wrapper-header .btn-title {
     padding: 35px 25px; }
-.purchase-history .table, .card-history .table, .pick-chart .table, .reputation-ranking .table, .info-skill .table, .gift .table, .daily-mission .table, .shop .table {
+.purchase-history .table, .card-history .table, .pick-chart .table, .reputation-ranking .table, .info-skill .table, .gift .table, .daily-mission .table, .shop .table, .wheel-fortune .table {
   max-width: 100% !important; }
 
 .pick-chart .wrapper-header, .reputation-ranking .wrapper-header {
@@ -178,6 +178,55 @@ body {
     padding: 40px 25px; }
     .pick-chart .wrapper-header .btn-title img, .reputation-ranking .wrapper-header .btn-title img {
       width: 40px; }
+  .pick-chart .wrapper-header .card-history__banner .pick-chart-dropdown, .reputation-ranking .wrapper-header .card-history__banner .pick-chart-dropdown {
+    width: max-content;
+    margin: 0 auto; }
+    .pick-chart .wrapper-header .card-history__banner .pick-chart-dropdown .btn-title::after, .reputation-ranking .wrapper-header .card-history__banner .pick-chart-dropdown .btn-title::after {
+      content: none; }
+    .pick-chart .wrapper-header .card-history__banner .pick-chart-dropdown .dropdown-menu, .reputation-ranking .wrapper-header .card-history__banner .pick-chart-dropdown .dropdown-menu {
+      padding: 40px 25px;
+      width: 100%;
+      background-image: url(../images/bg-dropdown-menu-shop.png);
+      background-size: 100% 100%;
+      border: none;
+      background-color: transparent;
+      background-repeat: no-repeat; }
+      .pick-chart .wrapper-header .card-history__banner .pick-chart-dropdown .dropdown-menu.show, .reputation-ranking .wrapper-header .card-history__banner .pick-chart-dropdown .dropdown-menu.show {
+        display: flex !important;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center; }
+      .pick-chart .wrapper-header .card-history__banner .pick-chart-dropdown .dropdown-menu .dropdown-item, .reputation-ranking .wrapper-header .card-history__banner .pick-chart-dropdown .dropdown-menu .dropdown-item {
+        height: 120px;
+        margin: 25px 0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: 'SVN-A Love Of Thunder';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff; }
+        .pick-chart .wrapper-header .card-history__banner .pick-chart-dropdown .dropdown-menu .dropdown-item.item-1, .reputation-ranking .wrapper-header .card-history__banner .pick-chart-dropdown .dropdown-menu .dropdown-item.item-1 {
+          background-image: url(../images/up-btn-1.png);
+          background-size: 100% 100%;
+          border: none;
+          background-color: transparent;
+          background-repeat: no-repeat; }
+        .pick-chart .wrapper-header .card-history__banner .pick-chart-dropdown .dropdown-menu .dropdown-item.item-2, .reputation-ranking .wrapper-header .card-history__banner .pick-chart-dropdown .dropdown-menu .dropdown-item.item-2 {
+          background-image: url(../images/up-btn-2.png);
+          background-size: 100% 100%;
+          border: none;
+          background-color: transparent;
+          background-repeat: no-repeat; }
+        .pick-chart .wrapper-header .card-history__banner .pick-chart-dropdown .dropdown-menu .dropdown-item.item-3, .reputation-ranking .wrapper-header .card-history__banner .pick-chart-dropdown .dropdown-menu .dropdown-item.item-3 {
+          background-image: url(../images/up-btn-3.png);
+          background-size: 100% 100%;
+          border: none;
+          background-color: transparent;
+          background-repeat: no-repeat; }
 .pick-chart .charts, .reputation-ranking .charts {
   display: flex;
   flex-wrap: wrap;
@@ -194,7 +243,7 @@ body {
       justify-content: center; }
     .pick-chart .charts .chart__content, .reputation-ranking .charts .chart__content {
       text-align: center;
-      color: #FFFBF1;
+      color: #fffbf1;
       font-size: 20px;
       font-family: SVN-Apple;
       padding: 20px;
@@ -214,7 +263,7 @@ body {
 .pick-chart .wrapper-table__title, .reputation-ranking .wrapper-table__title {
   font-size: 40px;
   font-family: 'SVN-A Love Of Thunder';
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 50px 0; }
 
 .reputation-ranking .wrapper-header .btn-title {
@@ -441,9 +490,203 @@ body {
   text-transform: uppercase;
   color: #2a2122; }
 
-.shop .wrapper-header .btn-title {
-  padding: 40px 25px; }
-  .shop .wrapper-header .btn-title img {
-    width: 40px; }
+.shop .wrapper-header {
+  height: 375px; }
+  .shop .wrapper-header .btn-title {
+    padding: 20px 35px;
+    width: 340px; }
+    .shop .wrapper-header .btn-title img {
+      width: 35px;
+      padding-bottom: 5px; }
+    .shop .wrapper-header .btn-title::after {
+      content: none; }
+    .shop .wrapper-header .btn-title:hover {
+      color: #391f00; }
+  .shop .wrapper-header .card-history__banner {
+    margin-top: 75px; }
+    .shop .wrapper-header .card-history__banner .shop-dropdown {
+      width: max-content;
+      margin: 0 auto; }
+      .shop .wrapper-header .card-history__banner .shop-dropdown .btn-title ::after {
+        content: none; }
+      .shop .wrapper-header .card-history__banner .shop-dropdown .dropdown-menu {
+        padding: 15px 25px;
+        width: 340px;
+        background-image: url(../images/bg-dropdown-menu-shop.png);
+        background-size: 100% 100%;
+        border: none;
+        background-color: transparent;
+        background-repeat: no-repeat; }
+        .shop .wrapper-header .card-history__banner .shop-dropdown .dropdown-menu .dropdown-item {
+          height: 77px;
+          margin: 25px 0;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          font-family: 'SVN-A Love Of Thunder';
+          font-style: normal;
+          font-weight: normal;
+          font-size: 22px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #ffffff; }
+          .shop .wrapper-header .card-history__banner .shop-dropdown .dropdown-menu .dropdown-item.item-1 {
+            background-image: url(../images/up-btn-1.png);
+            background-size: 100% 100%;
+            border: none;
+            background-color: transparent;
+            background-repeat: no-repeat; }
+          .shop .wrapper-header .card-history__banner .shop-dropdown .dropdown-menu .dropdown-item.item-2 {
+            background-image: url(../images/up-btn-2.png);
+            background-size: 100% 100%;
+            border: none;
+            background-color: transparent;
+            background-repeat: no-repeat; }
+          .shop .wrapper-header .card-history__banner .shop-dropdown .dropdown-menu .dropdown-item.item-3 {
+            background-image: url(../images/up-btn-3.png);
+            background-size: 100% 100%;
+            border: none;
+            background-color: transparent;
+            background-repeat: no-repeat; }
+.shop .wrapper-content-shop {
+  margin-bottom: 70px; }
+  .shop .wrapper-content-shop ul,
+  .shop .wrapper-content-shop li {
+    list-style-type: none; }
+  .shop .wrapper-content-shop ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    .shop .wrapper-content-shop ul li {
+      flex: 0 0 25%;
+      padding: 0 12px;
+      margin-bottom: 50px; }
+  .shop .wrapper-content-shop .list-content-image {
+    text-align: center; }
+  .shop .wrapper-content-shop .list-content-box {
+    text-align: center; }
+    .shop .wrapper-content-shop .list-content-box .list-content-price {
+      font-family: 'SVN-A Love Of Thunder';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 26px;
+      text-transform: uppercase;
+      color: #ffffff;
+      margin: 5px 0 15px 0; }
+    .shop .wrapper-content-shop .list-content-box .btn-buy {
+      margin: 0 auto;
+      font-family: 'SVN-A Love Of Thunder';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 10px 6px 10px;
+      color: #391f00;
+      background-image: url(../images/bg-btn-3.png);
+      background-size: 100% 100%;
+      border: none;
+      background-color: transparent;
+      background-repeat: no-repeat; }
+      .shop .wrapper-content-shop .list-content-box .btn-buy:hover {
+        background-image: url(../images/bg-btn-reg-hover.png);
+        color: #f7e36f; }
+
+.wheel-fortune .wrapper-header {
+  height: auto; }
+  .wheel-fortune .wrapper-header .btn-title {
+    padding: 40px 25px; }
+    .wheel-fortune .wrapper-header .btn-title img {
+      width: 40px; }
+  .wheel-fortune .wrapper-header .card-history__banner .pick-chart-dropdown {
+    width: max-content;
+    margin: 0 auto; }
+    .wheel-fortune .wrapper-header .card-history__banner .pick-chart-dropdown .btn-title::after {
+      content: none; }
+    .wheel-fortune .wrapper-header .card-history__banner .pick-chart-dropdown .dropdown-menu {
+      padding: 40px 25px;
+      width: 100%;
+      background-image: url(../images/bg-dropdown-menu-shop.png);
+      background-size: 100% 100%;
+      border: none;
+      background-color: transparent;
+      background-repeat: no-repeat; }
+      .wheel-fortune .wrapper-header .card-history__banner .pick-chart-dropdown .dropdown-menu.show {
+        display: flex !important;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center; }
+      .wheel-fortune .wrapper-header .card-history__banner .pick-chart-dropdown .dropdown-menu .dropdown-item {
+        height: 120px;
+        margin: 25px 0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-family: 'SVN-A Love Of Thunder';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff; }
+        .wheel-fortune .wrapper-header .card-history__banner .pick-chart-dropdown .dropdown-menu .dropdown-item.item-1 {
+          background-image: url(../images/up-btn-1.png);
+          background-size: 100% 100%;
+          border: none;
+          background-color: transparent;
+          background-repeat: no-repeat; }
+        .wheel-fortune .wrapper-header .card-history__banner .pick-chart-dropdown .dropdown-menu .dropdown-item.item-2 {
+          background-image: url(../images/up-btn-2.png);
+          background-size: 100% 100%;
+          border: none;
+          background-color: transparent;
+          background-repeat: no-repeat; }
+        .wheel-fortune .wrapper-header .card-history__banner .pick-chart-dropdown .dropdown-menu .dropdown-item.item-3 {
+          background-image: url(../images/up-btn-3.png);
+          background-size: 100% 100%;
+          border: none;
+          background-color: transparent;
+          background-repeat: no-repeat; }
+.wheel-fortune .charts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 50px; }
+  .wheel-fortune .charts .chart {
+    background-size: cover;
+    background-image: url("../images/window-2.png"); }
+    .wheel-fortune .charts .chart__title {
+      font-size: 40px;
+      font-family: 'SVN-A Love Of Thunder';
+      display: flex;
+      justify-content: center; }
+    .wheel-fortune .charts .chart__content {
+      text-align: center;
+      color: #fffbf1;
+      font-size: 20px;
+      font-family: SVN-Apple;
+      padding: 20px;
+      line-height: 33px; }
+      .wheel-fortune .charts .chart__content .name {
+        font-size: 25px; }
+  .wheel-fortune .charts .chart-1 {
+    margin: 0 20px;
+    width: 388px;
+    height: 510px; }
+  .wheel-fortune .charts .chart-2 {
+    width: 344px;
+    height: 452px; }
+  .wheel-fortune .charts .chart-3 {
+    width: 313px;
+    height: 411px; }
+.wheel-fortune .wrapper-table__title {
+  font-size: 40px;
+  font-family: 'SVN-A Love Of Thunder';
+  color: #ffffff;
+  margin: 50px 0; }
 
 /*# sourceMappingURL=style.css.map */

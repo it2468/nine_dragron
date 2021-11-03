@@ -1,33 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
 
-
-body{
-    background-image: url("../images/rectangle-2.png");
-    background-color: #2a2122 !important;
-    background-repeat: no-repeat;
-    background-position: top;
-    &.home-page-body {
-        background-image: url("../images/banner-full.png");
-    }
+body {
+  background-image: url('../images/rectangle-2.png');
+  background-color: #2a2122 !important;
+  background-repeat: no-repeat;
+  background-position: top;
+  &.home-page-body,
+  &.user-home-body {
+    background-image: url('../images/banner-full.png');
+  }
 }
 
 .wrapper-header {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    height: 500px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
 }
 .wrapper-footer {
-    height: 119px;
-    text-align: center;
-    background: #241C1D;
-    padding: 43px 0;
+  height: 119px;
+  text-align: center;
+  background: #241c1d;
+  padding: 43px 0;
 }
 .wrapper-footer .footer-item {
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 18px;
-    color: #FFFFFF;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
 }

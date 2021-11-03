@@ -130,13 +130,27 @@
 
             <!--==========BANNER===============-->
             <div class="title card-history__banner">
-              <button class="btn-title">
+              <div class="dropdown pick-chart-dropdown">
+                <button
+                  class=" btn-title dropdown-toggle"
+                  type="button"
+                  id="pick-chart-dropdown-Button"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
                 TOP 20 BẢNG XẾP HẠNG
                 <img
                   src="../assets/images/246775242_573350637308554_2378522869394129709_n.png"
                   class="plus-icon"
                 />
-              </button>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item item-1" href="#">Danh tiếng</a>
+                  <a class="dropdown-item item-2" href="#">Điểm kỹ năng</a>
+                  <a class="dropdown-item item-3" href="#">Số lượt trùng sinh</a>
+                </div>
+              </div>
+             
               <div class="charts">
                 <div class="chart chart-2">
                   <div class="chart__title">

@@ -1,15 +1,75 @@
-$color_brown: #391F00;
-$color_white: #FFFBF1;
-$color_red: #E70000;
+$color_brown: #391f00;
+$color_white: #fffbf1;
+$color_red: #e70000;
 .pick-chart {
   @extend .card-history;
   @extend .purchase-history;
+
   .wrapper-header {
     height: auto;
     .btn-title {
       padding: 40px 25px;
       img {
         width: 40px;
+      }
+    }
+    .card-history__banner {
+      .pick-chart-dropdown {
+        width: max-content;
+        margin: 0 auto;
+        .btn-title::after {
+          content: none;
+        }
+        .dropdown-menu {
+          padding: 40px 25px;
+          width: 100%;
+          background-image: url(../images/bg-dropdown-menu-shop.png);
+          background-size: 100% 100%;
+          border: none;
+          background-color: transparent;
+          background-repeat: no-repeat;
+          &.show {
+            display: flex !important;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+          }
+          .dropdown-item {
+            height: 120px;
+            margin: 25px 0;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-family: 'SVN-A Love Of Thunder';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #ffffff;
+            &.item-1 {
+              background-image: url(../images/up-btn-1.png);
+              background-size: 100% 100%;
+              border: none;
+              background-color: transparent;
+              background-repeat: no-repeat;
+            }
+            &.item-2 {
+              background-image: url(../images/up-btn-2.png);
+              background-size: 100% 100%;
+              border: none;
+              background-color: transparent;
+              background-repeat: no-repeat;
+            }
+            &.item-3 {
+              background-image: url(../images/up-btn-3.png);
+              background-size: 100% 100%;
+              border: none;
+              background-color: transparent;
+              background-repeat: no-repeat;
+            }
+          }
+        }
       }
     }
   }
@@ -58,7 +118,7 @@ $color_red: #E70000;
     &__title {
       font-size: 40px;
       font-family: 'SVN-A Love Of Thunder';
-      color: #FFFFFF;
+      color: #ffffff;
       margin: 50px 0;
     }
   }
