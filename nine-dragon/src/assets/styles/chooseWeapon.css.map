@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,8BAAgB;EACd,MAAM,EAAE,IAAI;AAEd,oCAAsB;EACpB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,YAAY;EAC7B,uDAAmB;IACjB,UAAU,EAAE,KAAK;IACjB,MAAM,EAAE,OAAO;AAGnB,8BAAgB;EACd,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,CAAC;EACT,KAAK,EAAE,IAAI",
+"sources": ["chooseWeapon.scss"],
+"names": [],
+"file": "chooseWeapon.css"
+}

@@ -1,0 +1,6 @@
+.reset-intensity {
+  @extend .choose-weapon;
+  .card-history__banner .choose-weapon-btn {
+    margin-top: 0;
+  }
+}

@@ -689,4 +689,21 @@ body {
   color: #ffffff;
   margin: 50px 0; }
 
+.choose-weapon .wrapper-header, .reset-intensity .wrapper-header {
+  height: auto; }
+.choose-weapon .card-history__banner, .reset-intensity .card-history__banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .choose-weapon .card-history__banner .choose-weapon-btn, .reset-intensity .card-history__banner .choose-weapon-btn {
+    margin-top: 100px;
+    cursor: pointer; }
+.choose-weapon .wrapper-footer, .reset-intensity .wrapper-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+.reset-intensity .card-history__banner .choose-weapon-btn {
+  margin-top: 0; }
+
 /*# sourceMappingURL=style.css.map */
