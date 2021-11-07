@@ -197,6 +197,11 @@ span.haicham {
     .left-sidebar .btn-lg-reg-box .btn-rotation-lucky:hover {
       background-image: url(../images/bg-btn-log-hover.png);
       color: #f7e36f; }
+  .left-sidebar .btn-lg-reg-box a {
+    color: initial;
+    text-decoration: none; }
+    .left-sidebar .btn-lg-reg-box a:hover {
+      color: #f7e36f; }
   .left-sidebar .mission-box {
     margin-top: 36px;
     font-family: 'SVN-A Love Of Thunder';

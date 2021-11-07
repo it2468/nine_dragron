@@ -226,6 +226,13 @@ span.haicham {
         color: #f7e36f;
       }
     }
+    a {
+      color: initial;
+      text-decoration: none;
+      &:hover {
+        color: #f7e36f;
+      }
+    }
   }
   .mission-box {
     margin-top: 36px;
