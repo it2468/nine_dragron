@@ -29,6 +29,24 @@ var prizes = [
           img: "./lucky-wheel/images/miss.png",
           percentpage: 0.5 // 60%
         },
+        {
+          text: "Vòng Tay",
+          img: "./lucky-wheel/images/Vong.png",
+          number : 1,
+          percentpage: 0.1 // 10%
+        },
+        {
+          text: "Security",
+          img: "./lucky-wheel/images/j2_logo.png",
+          number: 1,
+          percentpage: 0.24 // 24%
+        },
+        {
+          text: "Nón J2 Team",
+          img: "./lucky-wheel/images/Non.png",
+          number: 1,
+          percentpage: 0.05 // 5%
+        },
       ];
 document.addEventListener(
   "DOMContentLoaded",

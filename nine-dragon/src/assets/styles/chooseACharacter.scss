@@ -1,0 +1,45 @@
+.choose-character {
+  @media (min-width: 576px) {
+    .modal-dialog {
+      max-width: 1000px
+    }
+  }
+  @extend .chane-password;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    .item {
+      flex: 0 0 33%;
+      text-align: center;
+      p {
+        margin-bottom: 0;
+      }
+      &__img img{
+        width: 260px;
+      }
+      &__content {
+        margin-top: 30px;
+        font-family: 'Roboto Slab';
+        color: #391F00;
+      }
+      &__name {
+        font-family: 'SVN-A Love Of Thunder';
+        font-size: 30px;
+      }
+    }
+  }
+  &__btn {
+    text-align: center;
+    margin: 30px;
+    .choose-btn {
+      background: url("../images/background-btn-3.png") center no-repeat;
+      background-size: contain;
+      border: none;
+      font-size: 30px;
+      color: $color_brown;
+      font-weight: bold;
+      padding: 8px 97px;
+      font-family: 'SVN-A Love Of Thunder';
+    }
+  }
+}
