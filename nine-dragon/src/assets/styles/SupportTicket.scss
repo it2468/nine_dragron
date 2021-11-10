@@ -161,6 +161,8 @@ $color_red: #e70000;
         border: 0.5px solid #f9ea756e;
         box-sizing: border-box;
         border-radius: 4px;
+        color: #ffffff;
+        line-height: 34px;
       }
       .form-input-file-box {
         display: flex;
@@ -183,5 +185,40 @@ $color_red: #e70000;
       display: inline-block;
       margin-bottom: 12px;
     }
+    .choose-file {
+      padding-left: 16px;
+      .wrap-custom-file-input label{
+        width: 70%;
+        line-height: 28px;
+      }
+      .custom-file-label {
+        width: 25%;
+        right: 0;
+        left: unset;
+        background-color: transparent;
+        height: 34px;
+        border: none;
+        &::after {
+          content: 'Thêm tệp';
+          width: 100%;
+          height: calc(100% + 2px);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-image: url("../images/background-btn-3.png");
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-color: transparent;
+          border: none;
+          font-family: 'SVN-A Love Of Thunder';
+          font-size: 14px;
+          padding-bottom: 6px;
+          color: #391F00;
+        }
+      }
+    }
+  }
+  .capcha-code {
+    margin-bottom: 12px;
   }
 }

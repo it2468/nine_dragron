@@ -196,7 +196,7 @@
                   <div class="form-group">
                     <label for="content">Nội dung</label>
                     <div class="form-input-box">
-                      <textarea class="form-control" id="content" rows="3"></textarea>
+                      <textarea class="form-control" rows="3"></textarea>
                     </div>
                     
                   </div>
@@ -222,17 +222,21 @@
                   </div>
                   <div class="form-group">
                     <label for="file">Tệp đính kèm</label>
-                    <div class="form-input-box form-input-file-box">
-                      <input type="password" class="form-control input-file" id="file">
-                      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    <div class="custom-file choose-file">
+                      <input type="file" class="custom-file-input d-none" id="file-upload" >
+                      <div class="wrap-custom-file-input">
+                        <label id="file-name" class="form-control custom-file-upload" for="file-upload"  > </label>
+                      </div>
+                      <label class="custom-file-label" for="file-upload"></label>
                     </div>
 
                   </div>
                   <div class="form-group">
-                    <label for="spam-bot">Spam bot vertification </label>
+                    <label for="spam-bot">Spam bot vertification </label> 
                     <div class="form-input-box">
                       <span class="spam-vertification-brief">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat
                         placerat molestie. Donec gravida urna vitae faucibus dictum. </span>
+                      <img src="../assets/images/capcha-image.png" alt="capcha code" class="capcha-code">
                       <input type="text" class="form-control" id="spam-bot">
                     </div>
 
@@ -340,7 +344,18 @@
        var element = document.getElementById("main-content-support");
        element.classList.add("d-none");
     }
-    </script>
+
+</script>
+<script>
+  document.querySelector("#file-upload").onchange = function(){
+  document.querySelector("#file-name").textContent = this.files[0].name;
+}
+//  $("#file-upload").change(function(){
+//    console.log('this',this)
+//   $("#file-name").text(this.files[0].name);
+// });
+
+</script>
 
 </body>
 
