@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Chuyển đổi tiền tệ</title>
+    <!--import style-->
+    <link rel="stylesheet" type="text/css" href="../assets/styles/style.css" />
+    <!--import font-->
+    <!--import libraries-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div>
+      <!--Button show modal-->
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#exampleModal"
+      >
+        Chuyển đổi tiền tệ
+      </button>
+
+      <!-- Modal -->
+      <div
+        class="modal fade chane-password transfer-money-wrapper"
+        id="exampleModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="modal-title" id="exampleModalLabel"
+                >CHUYỂN ĐỔI COIN</span
+              >
+              <button
+                type="button"
+                class="close btn-close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <ul
+                class="nav nav-tabs mb-3"
+                id="switch-change-coin"
+                role="tablist"
+              >
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    id="nav-coin-game"
+                    data-toggle="tab"
+                    href="#coin-game"
+                    role="tab"
+                    aria-controls="coin-game"
+                    aria-selected="true"
+                    >Đổi coin game</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    id="nav-coin-blockchain"
+                    data-toggle="tab"
+                    href="#coin-blockchain"
+                    role="tab"
+                    aria-controls="coin-blockchain"
+                    aria-selected="false"
+                    >Đổi coin BlockChain</a
+                  >
+                </li>
+              </ul>
+              <div class="tab-content">
+                <div
+                  class="tab-pane active"
+                  id="coin-game"
+                  role="tabpanel"
+                  aria-labelledby="coin-game-tab"
+                >
+                  <h2 class="coin-game-transfer">1176 LE = 1 PVU</h2>
+                  <span class="coin-game-brief">Câu này là giải thích</span>
+                  <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text icon-transfer icon-logo">
+                        <img
+                          src="../assets/images/logo.png"
+                          class="d-inline-block align-top"
+                          alt="Kitten"
+                        />
+                      </span>
+                    </div>
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Amount (to the nearest dollar)"
+                    />
+                  </div>
+                  <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text icon-transfer icon-coin">
+                        <img
+                          src="../assets/images/icon-coin.png"
+                          class="d-inline-block align-top"
+                          alt="Coin"
+                        />
+                      </span>
+                    </div>
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Amount (to the nearest dollar)"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="tab-pane"
+                  id="coin-blockchain"
+                  role="tabpanel"
+                  aria-labelledby="coin-blockchain-tab"
+                >
+                  <h2 class="coin-blockchain-transfer">1176 LE = 1 PVU</h2>
+                  <span class="coin-blockchain-brief"
+                    >Câu này là giải thích</span
+                  >
+                  <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text icon-transfer icon-logo">
+                        <img
+                          src="../assets/images/logo.png"
+                          class="d-inline-block align-top"
+                          alt="Kitten"
+                        />
+                      </span>
+                    </div>
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Amount (to the nearest dollar)"
+                    />
+                  </div>
+                  <div class="input-group mb-4">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text icon-transfer icon-coin">
+                        <img
+                          src="../assets/images/icon-coin.png"
+                          class="d-inline-block align-top"
+                          alt="Coin"
+                        />
+                      </span>
+                    </div>
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Amount (to the nearest dollar)"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
