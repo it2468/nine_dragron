@@ -1,0 +1,187 @@
+$color_brown: #391f00;
+$color_white: #fffbf1;
+$color_red: #e70000;
+.support-ticket {
+  .section-container {
+    margin-bottom: 64px;
+  }
+  ul {
+    padding-left: 0;
+    list-style: none;
+    li {
+      list-style-type: none;
+    }
+  }
+  ._banner {
+    margin-top: 100px;
+    .btn-title {
+      background: url('../images/background-btn-3.png') center no-repeat;
+      background-size: contain;
+      border: none;
+    }
+  }
+
+  .wrapper-footer {
+    .footer-item2 {
+      padding-bottom: 10px;
+      margin-top: 10px;
+      background-image: url('../images/Group.png');
+    }
+  }
+  .ticket-support-title {
+    margin-bottom: 30px;
+  }
+  .list-content-brief, .list-content-title, .title, .description, .service-support-list-ticket, ._title, ._status,  ._time-ago, .service-support-list-ticket {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: block;
+    text-align: justify;
+    
+    color: #FFFFFF;
+  }
+  .title{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #f9ea75;
+  }
+  .list-content-support {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    .list-content-item {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-bottom: 30px;
+      flex: 0 0 100%;
+      .list-content-step-box {
+        flex: 0 0 85px;
+      }
+      .list-content-box {
+        flex-grow: 1;
+        padding-top: 5px;
+      }
+    }
+
+    .list-content-title {
+     
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 26px;
+      margin-bottom: 10px;
+      display: inline-block;
+
+      color: #f9ea75;
+    }
+  }
+  .ticket-for-you {
+    margin-bottom: 50px;
+    .list-content-item {
+      margin-bottom: 20px;
+    }
+    .list-content-box {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      .list-content-title-box {
+        flex: 1 0 200px;
+        padding-right: 15px;
+      }
+      ._time-ago {
+        flex: 0 0 105px;        
+        padding-left: 15px;
+      }
+      
+      ._title {
+        font-weight: 500;
+        color: #F9EA75;
+      }
+     
+    }
+    
+  }
+  .service-support {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .service-support-list-ticket{
+      font-weight: 500;
+      color: #F9EA75;
+    }
+    .service-support-ticket-button{
+      .btn-open-ticket-support{
+        background: url('../images/background-btn-3.png') center no-repeat;
+        background-size: 98% 100%;
+        border: none;
+        padding-bottom: 6px;
+        width: 151px;
+        height: 32px;
+        font-family: 'SVN-A Love Of Thunder';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+
+        color: #391F00;
+
+      }
+    }
+  }
+  .main-form-support {
+    .form-group {
+      display: flex;
+      align-items: baseline;
+      margin-bottom: 28px;
+      > label {
+        flex: 0 0 186px;
+        padding-right: 5px;
+
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+
+        color: #F9EA75;
+
+      }
+      > .form-input-box {
+        flex: 1 0 300px;
+        padding-left: 16px ;
+      }
+      .form-control {
+        background: transparent;
+        border: 0.5px solid #f9ea756e;
+        box-sizing: border-box;
+        border-radius: 4px;
+      }
+      .form-input-file-box {
+        display: flex;
+        .input-file {
+          flex: 1 0 350px;
+          padding-right: 16px;
+        }
+        .form-control-file {
+          flex: 0 0 100px;
+        }
+      }
+    }
+    .spam-vertification-brief {
+      font-family: 'Roboto Slab';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 17px;
+      color: #f9e97591;
+      display: inline-block;
+      margin-bottom: 12px;
+    }
+  }
+}

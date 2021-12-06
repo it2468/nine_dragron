@@ -88,39 +88,39 @@ body {
   font-family: 'Roboto Slab', serif;
   font-size: 20px; }
 
-.chane-password .modal-content, .login-popup .modal-content {
+.chane-password .modal-content, .login-popup .modal-content, .choose-character .modal-content {
   background-color: #FFFBF1;
   border-radius: 10px; }
-.chane-password .modal-header, .login-popup .modal-header {
+.chane-password .modal-header, .login-popup .modal-header, .choose-character .modal-header {
   justify-content: center; }
-  .chane-password .modal-header .modal-title, .login-popup .modal-header .modal-title {
+  .chane-password .modal-header .modal-title, .login-popup .modal-header .modal-title, .choose-character .modal-header .modal-title {
     font-size: 40px;
     color: #391F00;
     font-family: SVN-A Love Of Thunder; }
-  .chane-password .modal-header .btn-close, .login-popup .modal-header .btn-close {
+  .chane-password .modal-header .btn-close, .login-popup .modal-header .btn-close, .choose-character .modal-header .btn-close {
     position: absolute;
     right: 10px;
     top: 0px;
     font-size: 40px;
     color: #391F00;
     font-family: SVN-A Love Of Thunder; }
-.chane-password .modal-body .required-icon, .login-popup .modal-body .required-icon {
+.chane-password .modal-body .required-icon, .login-popup .modal-body .required-icon, .choose-character .modal-body .required-icon {
   color: #E70000; }
-.chane-password .modal-body .form-group, .login-popup .modal-body .form-group {
+.chane-password .modal-body .form-group, .login-popup .modal-body .form-group, .choose-character .modal-body .form-group {
   margin-bottom: 20px; }
-  .chane-password .modal-body .form-group label, .login-popup .modal-body .form-group label {
+  .chane-password .modal-body .form-group label, .login-popup .modal-body .form-group label, .choose-character .modal-body .form-group label {
     font-weight: bold;
     color: #391F00; }
-  .chane-password .modal-body .form-group input, .login-popup .modal-body .form-group input {
+  .chane-password .modal-body .form-group input, .login-popup .modal-body .form-group input, .choose-character .modal-body .form-group input {
     border-color: #391F00;
     background-color: #FFFBF1; }
-    .chane-password .modal-body .form-group input::placeholder, .login-popup .modal-body .form-group input::placeholder {
+    .chane-password .modal-body .form-group input::placeholder, .login-popup .modal-body .form-group input::placeholder, .choose-character .modal-body .form-group input::placeholder {
       color: #391F00; }
-.chane-password .modal-body .submit-btn, .login-popup .modal-body .submit-btn {
+.chane-password .modal-body .submit-btn, .login-popup .modal-body .submit-btn, .choose-character .modal-body .submit-btn {
   margin: 30px 0;
   display: flex;
   justify-content: center; }
-  .chane-password .modal-body .submit-btn button, .login-popup .modal-body .submit-btn button {
+  .chane-password .modal-body .submit-btn button, .login-popup .modal-body .submit-btn button, .choose-character .modal-body .submit-btn button {
     background: url("../images/background-btn-3.png") center no-repeat;
     background-size: contain;
     border: none;
@@ -737,5 +737,235 @@ body {
   #switch-change-coin .nav-link.active {
     color: #391f00;
     border-bottom: 3px solid #391f00; }
+
+.choose-weapon .wrapper-header, .reset-intensity .wrapper-header {
+  height: auto; }
+.choose-weapon .card-history__banner, .reset-intensity .card-history__banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .choose-weapon .card-history__banner .choose-weapon-btn, .reset-intensity .card-history__banner .choose-weapon-btn {
+    margin-top: 100px;
+    cursor: pointer; }
+.choose-weapon .wrapper-footer, .reset-intensity .wrapper-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+.reset-intensity .card-history__banner .choose-weapon-btn {
+  margin-top: 0; }
+.reset-intensity .wrap-option, .reset-intensity .wrap-reset-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: 'SVN-A Love Of Thunder'; }
+  .reset-intensity .wrap-option .option-item, .reset-intensity .wrap-reset-btn .option-item {
+    text-align: center;
+    margin-top: 50px; }
+    .reset-intensity .wrap-option .option-item__title, .reset-intensity .wrap-reset-btn .option-item__title {
+      font-size: 35px;
+      color: #F9E772;
+      background: transparent;
+      border: none;
+      position: relative; }
+      .reset-intensity .wrap-option .option-item__title::after, .reset-intensity .wrap-reset-btn .option-item__title::after {
+        display: inline-block;
+        margin-left: 0.255em;
+        vertical-align: 0.255em;
+        content: "";
+        border-top: 0.3em solid;
+        border-right: 0.3em solid transparent;
+        border-bottom: 0;
+        border-left: 0.3em solid transparent; }
+    .reset-intensity .wrap-option .option-item__content, .reset-intensity .wrap-reset-btn .option-item__content {
+      font-size: 30px;
+      color: #FFFFFF; }
+.reset-intensity .wrap-reset-btn {
+  margin-top: 100px; }
+  .reset-intensity .wrap-reset-btn .reset-btn {
+    background: url("../images/background-btn-3.png") center no-repeat;
+    background-size: contain;
+    border: none;
+    font-size: 30px;
+    color: #391f00;
+    font-weight: bold;
+    padding: 8px 97px;
+    font-family: 'SVN-A Love Of Thunder'; }
+.reset-intensity .wrap-description {
+  display: flex;
+  justify-content: center; }
+  .reset-intensity .wrap-description .description {
+    max-width: 70%;
+    margin-top: 50px;
+    color: #ffffff;
+    font-family: 'Roboto Slab';
+    font-size: 14px;
+    line-height: 30px; }
+
+@media (min-width: 576px) {
+  .choose-character .modal-dialog {
+    max-width: 1000px; } }
+.choose-character__content {
+  display: flex;
+  justify-content: space-between; }
+  .choose-character__content .item {
+    flex: 0 0 33%;
+    text-align: center; }
+    .choose-character__content .item p {
+      margin-bottom: 0; }
+    .choose-character__content .item__img img {
+      width: 260px; }
+    .choose-character__content .item__content {
+      margin-top: 30px;
+      font-family: 'Roboto Slab';
+      color: #391F00; }
+    .choose-character__content .item__name {
+      font-family: 'SVN-A Love Of Thunder';
+      font-size: 30px; }
+.choose-character__btn {
+  text-align: center;
+  margin: 30px; }
+  .choose-character__btn .choose-btn {
+    background: url("../images/background-btn-3.png") center no-repeat;
+    background-size: contain;
+    border: none;
+    font-size: 30px;
+    color: #391f00;
+    font-weight: bold;
+    padding: 8px 97px;
+    font-family: 'SVN-A Love Of Thunder'; }
+
+.support-ticket .section-container {
+  margin-bottom: 64px; }
+.support-ticket ul {
+  padding-left: 0;
+  list-style: none; }
+  .support-ticket ul li {
+    list-style-type: none; }
+.support-ticket ._banner {
+  margin-top: 100px; }
+  .support-ticket ._banner .btn-title {
+    background: url("../images/background-btn-3.png") center no-repeat;
+    background-size: contain;
+    border: none; }
+.support-ticket .wrapper-footer .footer-item2 {
+  padding-bottom: 10px;
+  margin-top: 10px;
+  background-image: url("../images/Group.png"); }
+.support-ticket .ticket-support-title {
+  margin-bottom: 30px; }
+.support-ticket .list-content-brief, .support-ticket .list-content-title, .support-ticket .title, .support-ticket .description, .support-ticket .service-support-list-ticket, .support-ticket ._title, .support-ticket ._status, .support-ticket ._time-ago, .support-ticket .service-support-list-ticket {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  display: block;
+  text-align: justify;
+  color: #FFFFFF; }
+.support-ticket .title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 25px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #f9ea75; }
+.support-ticket .list-content-support {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; }
+  .support-ticket .list-content-support .list-content-item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    flex: 0 0 100%; }
+    .support-ticket .list-content-support .list-content-item .list-content-step-box {
+      flex: 0 0 85px; }
+    .support-ticket .list-content-support .list-content-item .list-content-box {
+      flex-grow: 1;
+      padding-top: 5px; }
+  .support-ticket .list-content-support .list-content-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #f9ea75; }
+.support-ticket .ticket-for-you {
+  margin-bottom: 50px; }
+  .support-ticket .ticket-for-you .list-content-item {
+    margin-bottom: 20px; }
+  .support-ticket .ticket-for-you .list-content-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline; }
+    .support-ticket .ticket-for-you .list-content-box .list-content-title-box {
+      flex: 1 0 200px;
+      padding-right: 15px; }
+    .support-ticket .ticket-for-you .list-content-box ._time-ago {
+      flex: 0 0 105px;
+      padding-left: 15px; }
+    .support-ticket .ticket-for-you .list-content-box ._title {
+      font-weight: 500;
+      color: #F9EA75; }
+.support-ticket .service-support {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .support-ticket .service-support .service-support-list-ticket {
+    font-weight: 500;
+    color: #F9EA75; }
+  .support-ticket .service-support .service-support-ticket-button .btn-open-ticket-support {
+    background: url("../images/background-btn-3.png") center no-repeat;
+    background-size: 98% 100%;
+    border: none;
+    padding-bottom: 6px;
+    width: 151px;
+    height: 32px;
+    font-family: 'SVN-A Love Of Thunder';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #391F00; }
+.support-ticket .main-form-support .form-group {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 28px; }
+  .support-ticket .main-form-support .form-group > label {
+    flex: 0 0 186px;
+    padding-right: 5px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #F9EA75; }
+  .support-ticket .main-form-support .form-group > .form-input-box {
+    flex: 1 0 300px;
+    padding-left: 16px; }
+  .support-ticket .main-form-support .form-group .form-control {
+    background: transparent;
+    border: 0.5px solid #f9ea756e;
+    box-sizing: border-box;
+    border-radius: 4px; }
+  .support-ticket .main-form-support .form-group .form-input-file-box {
+    display: flex; }
+    .support-ticket .main-form-support .form-group .form-input-file-box .input-file {
+      flex: 1 0 350px;
+      padding-right: 16px; }
+    .support-ticket .main-form-support .form-group .form-input-file-box .form-control-file {
+      flex: 0 0 100px; }
+.support-ticket .main-form-support .spam-vertification-brief {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  color: #f9e97591;
+  display: inline-block;
+  margin-bottom: 12px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -21,7 +21,10 @@
     ></script>
 
     <script src="../assets/js/menu.js"></script>
-    <!--import font-->
+    <!--lucky wheel-->
+    <link rel="stylesheet" href="./lucky-wheel/css/typo/typo.css" />
+    <link rel="stylesheet" href="./lucky-wheel/css/hc-canvas-luckwheel.css" />
+
     <!--modal-->
     <link
       rel="stylesheet"
@@ -167,6 +170,20 @@
           <!--============BANNER END //===========-->
         </div>
       </div>
+      <!--==============LUCKY WHEEL========================-->
+      <!--WHEEL-->
+      <div class="wrapper typo wrapper-wheel" id="wrapper">
+        <p class="hc-luckywheel-title">SỐ LƯỢT QUAY CÒN LẠI: 50</p>
+        <section id="luckywheel" class="hc-luckywheel">
+          <div class="hc-luckywheel-container">
+            <canvas class="hc-luckywheel-canvas" width="500px" height="500px"
+              >Vòng Xoay May Mắn</canvas
+            >
+          </div>
+          <a class="hc-luckywheel-btn" href="javascript:;">Xoay</a>
+        </section>
+      </div>
+      <!--TABLE HISTORY-->
       <section class="container wrapper-table">
         <h2 class="wrapper-table__title">Lịch sử quay</h2>
         <table class="table able-borderless">
@@ -309,6 +326,7 @@
           </tbody>
         </table>
       </section>
+      <!--==============LUCKY WHEEL END //========================-->
       <section class="wrapper-footer">
         <div class="container">
           <div class="footer-item">
@@ -320,7 +338,10 @@
         </div>
       </section>
     </div>
-    <!--js------------------------------------------------->
-    <script></script>
+    <!--=====================JS FOR LUCKY WHEEL=================================-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="./lucky-wheel/js/hc-canvas-luckwheel.js"></script>
+    <script src="./lucky-wheel/js/lucky-wheel.js"></script>
+    <!--=====================JS FOR LUCKY WHEEL END //=================================-->
   </body>
 </html>

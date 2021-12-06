@@ -1,0 +1,134 @@
+.support-ticket .section-container {
+  margin-bottom: 64px; }
+.support-ticket ul {
+  padding-left: 0;
+  list-style: none; }
+  .support-ticket ul li {
+    list-style-type: none; }
+.support-ticket ._banner {
+  margin-top: 100px; }
+  .support-ticket ._banner .btn-title {
+    background: url("../images/background-btn-3.png") center no-repeat;
+    background-size: contain;
+    border: none; }
+.support-ticket .wrapper-footer .footer-item2 {
+  padding-bottom: 10px;
+  margin-top: 10px;
+  background-image: url("../images/Group.png"); }
+.support-ticket .ticket-support-title {
+  margin-bottom: 30px; }
+.support-ticket .list-content-brief, .support-ticket .list-content-title, .support-ticket .title, .support-ticket .description, .support-ticket .service-support-list-ticket, .support-ticket ._title, .support-ticket ._status, .support-ticket ._time-ago, .support-ticket .service-support-list-ticket {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  display: block;
+  text-align: justify;
+  color: #FFFFFF; }
+.support-ticket .title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 25px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #f9ea75; }
+.support-ticket .list-content-support {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; }
+  .support-ticket .list-content-support .list-content-item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    flex: 0 0 100%; }
+    .support-ticket .list-content-support .list-content-item .list-content-step-box {
+      flex: 0 0 85px; }
+    .support-ticket .list-content-support .list-content-item .list-content-box {
+      flex-grow: 1;
+      padding-top: 5px; }
+  .support-ticket .list-content-support .list-content-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #f9ea75; }
+.support-ticket .ticket-for-you {
+  margin-bottom: 50px; }
+  .support-ticket .ticket-for-you .list-content-item {
+    margin-bottom: 20px; }
+  .support-ticket .ticket-for-you .list-content-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline; }
+    .support-ticket .ticket-for-you .list-content-box .list-content-title-box {
+      flex: 1 0 200px;
+      padding-right: 15px; }
+    .support-ticket .ticket-for-you .list-content-box ._time-ago {
+      flex: 0 0 105px;
+      padding-left: 15px; }
+    .support-ticket .ticket-for-you .list-content-box ._title {
+      font-weight: 500;
+      color: #F9EA75; }
+.support-ticket .service-support {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .support-ticket .service-support .service-support-list-ticket {
+    font-weight: 500;
+    color: #F9EA75; }
+  .support-ticket .service-support .service-support-ticket-button .btn-open-ticket-support {
+    background: url("../images/background-btn-3.png") center no-repeat;
+    background-size: 98% 100%;
+    border: none;
+    padding-bottom: 6px;
+    width: 151px;
+    height: 32px;
+    font-family: 'SVN-A Love Of Thunder';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #391F00; }
+.support-ticket .main-form-support .form-group {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 28px; }
+  .support-ticket .main-form-support .form-group > label {
+    flex: 0 0 186px;
+    padding-right: 5px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #F9EA75; }
+  .support-ticket .main-form-support .form-group > .form-input-box {
+    flex: 1 0 300px;
+    padding-left: 16px; }
+  .support-ticket .main-form-support .form-group .form-control {
+    background: transparent;
+    border: 0.5px solid #f9ea756e;
+    box-sizing: border-box;
+    border-radius: 4px; }
+  .support-ticket .main-form-support .form-group .form-input-file-box {
+    display: flex; }
+    .support-ticket .main-form-support .form-group .form-input-file-box .input-file {
+      flex: 1 0 350px;
+      padding-right: 16px; }
+    .support-ticket .main-form-support .form-group .form-input-file-box .form-control-file {
+      flex: 0 0 100px; }
+.support-ticket .main-form-support .spam-vertification-brief {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  color: #f9e97591;
+  display: inline-block;
+  margin-bottom: 12px; }
+
+/*# sourceMappingURL=SupportTicket.css.map */
