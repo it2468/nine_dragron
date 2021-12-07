@@ -690,6 +690,55 @@ body {
   color: #ffffff;
   margin: 50px 0; }
 
+.transfer-money-wrapper .tab-content .coin-game-transfer {
+  font-size: 20px;
+  font-weight: bold;
+  color: #391f00; }
+.transfer-money-wrapper .tab-content .form-control {
+  border-radius: 4px; }
+.transfer-money-wrapper .tab-content .icon-transfer {
+  background: transparent;
+  border: unset;
+  margin-right: 12px; }
+.transfer-money-wrapper .tab-content .icon-logo img {
+  width: 29px;
+  height: 29px;
+  border: 1px solid #d18226; }
+.transfer-money-wrapper .tab-content .coin-game-transfer,
+.transfer-money-wrapper .tab-content .coin-blockchain-transfer {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 4px;
+  color: #391f00; }
+.transfer-money-wrapper .tab-content .coin-game-brief,
+.transfer-money-wrapper .tab-content .coin-blockchain-brief {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #391f00;
+  display: block;
+  margin-bottom: 1.5rem;
+  opacity: 0.6; }
+
+#switch-change-coin .nav-tabs {
+  border-bottom-color: #c8c8c8; }
+#switch-change-coin .nav-link {
+  font-size: 20px;
+  font-weight: bold;
+  color: #c8c8c8;
+  padding-left: 5px;
+  background: transparent;
+  border: none;
+  border-radius: unset; }
+  #switch-change-coin .nav-link.active {
+    color: #391f00;
+    border-bottom: 3px solid #391f00; }
+
 .choose-weapon .wrapper-header, .reset-intensity .wrapper-header {
   height: auto; }
 .choose-weapon .card-history__banner, .reset-intensity .card-history__banner {

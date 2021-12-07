@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$color_brown".
-        on line 39 of F:\Freelance\nine_dragron\nine-dragon\src\assets\styles\chooseACharacter.scss
+        on line 45 of F:\Freelance\nine_dragron\nine-dragon\src\assets\styles\resetIntensity.scss
 
-34:     .choose-btn {
-35:       background: url("../images/background-btn-3.png") center no-repeat;
-36:       background-size: contain;
-37:       border: none;
-38:       font-size: 30px;
-39:       color: $color_brown;
-40:       font-weight: bold;
-41:       padding: 8px 97px;
-42:       font-family: 'SVN-A Love Of Thunder';
-43:     }
-44:   }
+40:     .reset-btn {
+41:       background: url("../images/background-btn-3.png") center no-repeat;
+42:       background-size: contain;
+43:       border: none;
+44:       font-size: 30px;
+45:       color: $color_brown;
+46:       font-weight: bold;
+47:       padding: 8px 97px;
+48:       font-family: 'SVN-A Love Of Thunder';
+49:     }
+50:   }
 
 Backtrace:
-F:\Freelance\nine_dragron\nine-dragon\src\assets\styles\chooseACharacter.scss:39
+F:\Freelance\nine_dragron\nine-dragon\src\assets\styles\resetIntensity.scss:45
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -84,4 +84,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color_brown\".\A         on line 39 of F:\Freelance\nine_dragron\nine-dragon\src\assets\styles\chooseACharacter.scss\A \A 34:     .choose-btn {\A 35:       background: url(\"../images/background-btn-3.png\") center no-repeat;\A 36:       background-size: contain;\A 37:       border: none;\A 38:       font-size: 30px;\A 39:       color: $color_brown;\A 40:       font-weight: bold;\A 41:       padding: 8px 97px;\A 42:       font-family: 'SVN-A Love Of Thunder';\A 43:     }\A 44:   }"; }
+  content: "Error: Undefined variable: \"$color_brown\".\A         on line 45 of F:\Freelance\nine_dragron\nine-dragon\src\assets\styles\resetIntensity.scss\A \A 40:     .reset-btn {\A 41:       background: url(\"../images/background-btn-3.png\") center no-repeat;\A 42:       background-size: contain;\A 43:       border: none;\A 44:       font-size: 30px;\A 45:       color: $color_brown;\A 46:       font-weight: bold;\A 47:       padding: 8px 97px;\A 48:       font-family: 'SVN-A Love Of Thunder';\A 49:     }\A 50:   }"; }
