@@ -129,7 +129,10 @@ body {
     color: #391F00;
     font-weight: bold;
     padding: 20px;
-    font-family: SVN-A Love Of Thunder; }
+    font-family: SVN-A Love Of Thunder;
+    box-shadow: none; }
+  .chane-password .modal-body .submit-btn .btn:focus, .login-popup .modal-body .submit-btn .btn:focus, .choose-character .modal-body .submit-btn .btn:focus {
+    box-shadow: none !important; }
 
 .card-history__banner {
   margin-top: 100px; }
@@ -724,6 +727,8 @@ body {
   display: block;
   margin-bottom: 1.5rem;
   opacity: 0.6; }
+.transfer-money-wrapper .btn:focus {
+  box-shadow: none !important; }
 
 #switch-change-coin .nav-tabs {
   border-bottom-color: #c8c8c8; }
