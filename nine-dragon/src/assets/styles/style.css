@@ -15,7 +15,8 @@
 .menu .dropdown-menu {
   background: #D18226;
   border-radius: 25px;
-  border: 5px solid #391F00; }
+  border: 5px solid #391F00;
+  width: auto; }
   .menu .navbar-nav.menu-right, .menu .navbar-nav.menu-right .dropdown-menu,
   .menu .dropdown-menu.menu-right,
   .menu .dropdown-menu.menu-right .dropdown-menu {
@@ -38,8 +39,7 @@
     font-family: 'SVN-A Love Of Thunder';
     font-style: normal;
     line-height: 22px;
-    text-decoration: none;
-    padding: 12px 18px !important; }
+    text-decoration: none; }
     .menu .navbar-nav li a.main-dropdown-toggle,
     .menu .dropdown-menu li a.main-dropdown-toggle {
       padding-right: 24px !important;
@@ -49,6 +49,12 @@
       background-color: #391F00; }
 .menu .navbar-nav {
   margin-top: 35px; }
+  .menu .navbar-nav .nav-link {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; }
 .menu .main-menu {
   flex: 1 0 70%;
   justify-content: space-around;
@@ -80,6 +86,10 @@
       border-bottom: none; }
     .menu .menu-right .dropdown-menu-right li {
       padding: 0 8px; }
+  .menu .menu-right .nav-item {
+    width: 100%; }
+.menu .dropdown-toggle.show {
+  display: flex !important; }
 
 @media all and (max-width: 1400px) {
   .navbar-expand-lg .navbar-nav {
@@ -183,7 +193,7 @@ body {
   padding-bottom: 50px;
   flex-wrap: wrap; }
   .card-history .wrapper-table .table, .pick-chart .wrapper-table .table, .reputation-ranking .wrapper-table .table, .info-skill .wrapper-table .table, .gift .wrapper-table .table, .daily-mission .wrapper-table .table, .shop .wrapper-table .table, .wheel-fortune .wrapper-table .table {
-    max-width: 900px; }
+    max-width: 68.75%; }
     .card-history .wrapper-table .table td, .pick-chart .wrapper-table .table td, .reputation-ranking .wrapper-table .table td, .info-skill .wrapper-table .table td, .gift .wrapper-table .table td, .daily-mission .wrapper-table .table td, .shop .wrapper-table .table td, .wheel-fortune .wrapper-table .table td {
       font-size: 14px; }
     .card-history .wrapper-table .table__deposit, .pick-chart .wrapper-table .table__deposit, .reputation-ranking .wrapper-table .table__deposit, .info-skill .wrapper-table .table__deposit, .gift .wrapper-table .table__deposit, .daily-mission .wrapper-table .table__deposit, .shop .wrapper-table .table__deposit, .wheel-fortune .wrapper-table .table__deposit {
@@ -193,11 +203,11 @@ body {
   margin-top: 10px;
   background-image: url("../images/Group.png"); }
 
-.purchase-history .wrapper-header, .card-history .wrapper-header, .pick-chart .wrapper-header, .reputation-ranking .wrapper-header, .info-skill .wrapper-header, .gift .wrapper-header, .daily-mission .wrapper-header, .shop .wrapper-header, .wheel-fortune .wrapper-header {
+.purchase-history .wrapper-header, .pick-chart .wrapper-header, .reputation-ranking .wrapper-header, .info-skill .wrapper-header, .gift .wrapper-header, .daily-mission .wrapper-header, .shop .wrapper-header, .wheel-fortune .wrapper-header {
   height: 500px; }
-  .purchase-history .wrapper-header .btn-title, .card-history .wrapper-header .btn-title, .pick-chart .wrapper-header .btn-title, .reputation-ranking .wrapper-header .btn-title, .info-skill .wrapper-header .btn-title, .gift .wrapper-header .btn-title, .daily-mission .wrapper-header .btn-title, .shop .wrapper-header .btn-title, .wheel-fortune .wrapper-header .btn-title {
+  .purchase-history .wrapper-header .btn-title, .pick-chart .wrapper-header .btn-title, .reputation-ranking .wrapper-header .btn-title, .info-skill .wrapper-header .btn-title, .gift .wrapper-header .btn-title, .daily-mission .wrapper-header .btn-title, .shop .wrapper-header .btn-title, .wheel-fortune .wrapper-header .btn-title {
     padding: 35px 25px; }
-.purchase-history .table, .card-history .table, .pick-chart .table, .reputation-ranking .table, .info-skill .table, .gift .table, .daily-mission .table, .shop .table, .wheel-fortune .table {
+.purchase-history .table, .pick-chart .table, .reputation-ranking .table, .info-skill .table, .gift .table, .daily-mission .table, .shop .table, .wheel-fortune .table {
   max-width: 100% !important; }
 
 .pick-chart .wrapper-header, .reputation-ranking .wrapper-header {
@@ -372,6 +382,8 @@ body {
   background-image: url("../images/Group.png"); }
 .card-recharge-intro .table {
   max-width: 100% !important; }
+.card-recharge-intro .wrapper-table {
+  max-width: 76.94% !important; }
 .card-recharge-intro .list-content-step {
   padding: 0;
   display: flex;

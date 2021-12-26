@@ -5,7 +5,8 @@
 .menu .dropdown-menu {
   background: #D18226;
   border-radius: 25px;
-  border: 5px solid #391F00; }
+  border: 5px solid #391F00;
+  width: auto; }
   .menu .navbar-nav.menu-right, .menu .navbar-nav.menu-right .dropdown-menu,
   .menu .dropdown-menu.menu-right,
   .menu .dropdown-menu.menu-right .dropdown-menu {
@@ -28,8 +29,7 @@
     font-family: 'SVN-A Love Of Thunder';
     font-style: normal;
     line-height: 22px;
-    text-decoration: none;
-    padding: 12px 18px !important; }
+    text-decoration: none; }
     .menu .navbar-nav li a.main-dropdown-toggle,
     .menu .dropdown-menu li a.main-dropdown-toggle {
       padding-right: 24px !important;
@@ -39,6 +39,12 @@
       background-color: #391F00; }
 .menu .navbar-nav {
   margin-top: 35px; }
+  .menu .navbar-nav .nav-link {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; }
 .menu .main-menu {
   flex: 1 0 70%;
   justify-content: space-around;
@@ -70,6 +76,10 @@
       border-bottom: none; }
     .menu .menu-right .dropdown-menu-right li {
       padding: 0 8px; }
+  .menu .menu-right .nav-item {
+    width: 100%; }
+.menu .dropdown-toggle.show {
+  display: flex !important; }
 
 @media all and (max-width: 1400px) {
   .navbar-expand-lg .navbar-nav {

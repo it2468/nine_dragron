@@ -3,9 +3,11 @@ body {
   background-image: url("../images/rectangle-2.png");
   background-color: #2a2122 !important;
   background-repeat: no-repeat;
-  background-position: top; }
+  background-position: top;
+  background-size: cover; }
   body.home-page-body, body.user-home-body {
-    background-image: url("../images/banner-full.png"); }
+    background-image: url("../images/banner-full.png");
+    background-size: auto; }
 
 .wrapper-header {
   position: relative;
@@ -26,5 +28,9 @@ body {
   font-size: 14px;
   line-height: 18px;
   color: #ffffff; }
+
+.container {
+  width: 1280px !important;
+  max-width: 1280px !important; }
 
 /*# sourceMappingURL=global.css.map */

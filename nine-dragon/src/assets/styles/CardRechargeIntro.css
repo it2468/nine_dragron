@@ -10,6 +10,8 @@
   background-image: url("../images/Group.png"); }
 .card-recharge-intro .table {
   max-width: 100% !important; }
+.card-recharge-intro .wrapper-table {
+  max-width: 76.94% !important; }
 .card-recharge-intro .list-content-step {
   padding: 0;
   display: flex;

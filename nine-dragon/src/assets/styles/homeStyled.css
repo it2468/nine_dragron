@@ -2,18 +2,8 @@
 @font-face {
   font-family: 'SVN-A Love Of Thunder';
   src: url("../fonts/SVN-SVN-A Love Of Thunder.ttf") format("truetype"); }
-#content {
-  padding: 0 80px 75px 80px;
+.home-page__content {
   display: flex; }
-  #content .left-sidebar,
-  #content .right-sidebar {
-    flex: 0 0 325px; }
-  #content .left-sidebar {
-    padding-right: 20px; }
-  #content .right-sidebar {
-    padding-left: 20px; }
-  #content .main-content {
-    flex-grow: 1; }
 
 .title {
   width: 100%; }
@@ -275,7 +265,8 @@ span.haicham {
   background-size: 100% 100%;
   border: none;
   background-color: transparent;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding-top: 11px; }
   .main-content .line-header-content {
     background-image: url("../images/line-moon.png");
     background-size: 100% 100%;
@@ -284,8 +275,7 @@ span.haicham {
     background-repeat: no-repeat;
     width: calc(100% - 24px);
     height: 24px;
-    margin: 0 auto;
-    margin-top: 11px; }
+    margin: 0 auto; }
   .main-content .embed-link {
     background-image: url("../images/bg-youtube.png");
     background-size: 100% 100%;

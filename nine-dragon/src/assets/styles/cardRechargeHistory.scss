@@ -1,6 +1,6 @@
 .card-history {
   @extend .card-history;
-  @extend .purchase-history;
+  // @extend .purchase-history;
   &__banner {
     margin-top: 100px;
     .btn-title {
@@ -32,7 +32,7 @@
     padding-bottom: 50px;
     flex-wrap: wrap;
     .table {
-      max-width: 900px;
+      max-width: 68.75%;
       td {
         font-size: 14px;
       }

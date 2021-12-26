@@ -4,11 +4,6 @@
   <head>
     <meta charset="utf-8" />
     <title>Game</title>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../assets/styles/homeStyled.css"
-    />
     <link rel="stylesheet" type="text/css" href="../assets/styles/style.css" />
     <link
       rel="stylesheet"
@@ -33,7 +28,7 @@
       <div id="wapper1" class="home-page">
         <!--=====MENU============-->
         <div class="wrapper-header">
-          <div class="container">
+          <div class="container menu-home">
             <nav class="navbar navbar-expand-lg navbar-dark menu">
               <div class="container-fluid image-logo">
                 <a class="navbar-brand" href="UserHome.html">
@@ -90,10 +85,31 @@
                         </li>
                       </ul>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                      >
                         Hướng dẫn
                       </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="CardRechargeIntro.html">
+                            Hướng dẫn 1
+                          </a>
+                        </li> 
+                        <li>
+                          <a class="dropdown-item" href="CardRechargeIntro.html">
+                            <!-- <a class="dropdown-item" href="InfoSkill.html"> -->
+                            <!-- Thông tin kỹ năng -->
+                            Hướng dẫn 2
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="CardRechargeIntro.html"> Hướng dẫn 3 </a>
+                        </li>
+                      </ul>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">
@@ -152,200 +168,204 @@
           </div>
         </div>
         <!--=====MENU END //============-->
-        <section id="content">
-          <div class="left-sidebar">
-            <div class="btn-download-box">
-              <button class="btn-choose-character">CHỌN NHÂN VẬT</button>
+        <section class="container">
+          <div class="home-page__content row">
+            <div class="left-sidebar col-3 col-xs-12">
+              <div class="btn-download-box">
+                <button class="btn-choose-character">CHỌN NHÂN VẬT</button>
+              </div>
+              <div class="btn-lg-reg-box">
+                <button class="btn-shop">Kỳ trân các</button>
+                <button class="btn-gif">
+                  <a href="Gift.html">
+                    QUÀ TẶNG
+                  </a>
+                </button>
+                <button class="btn-rotation-lucky">
+                  <a href="./WheelFortune.html">
+                    VÒNG QUAY MAY MẮN
+                  </a>
+                </button>
+              </div>
+              <div class="mission-box">
+                <span class="title-mission">Nhiệm vụ vip</span>
+                <ul>
+                  <li>Cắt cỏ</li>
+                  <li>Nhặt lá</li>
+                  <li>Đá ống bơ</li>
+                  <li>Quét Nhà</li>
+                  <li>Rửa bát</li>
+                </ul>
+              </div>
+              <div class="countdown-box">
+                <span class="countdown-title">Chương trình sẽ bắt đầu sau</span>
+                <div id="countdown-1"></div>
+              </div>
             </div>
-            <div class="btn-lg-reg-box">
-              <button class="btn-shop">Kỳ trân các</button>
-              <button class="btn-gif">
-                <a href="Gift.html">
-                  QUÀ TẶNG
-                </a>
-              </button>
-              <button class="btn-rotation-lucky">
-                <a href="./WheelFortune.html">
-                  VÒNG QUAY MAY MẮN
-                </a>
-              </button>
+            <div class="col-6 col-xs-12">
+              <div class="main-content">
+                <div class="line-header-content"></div>
+                <div class="embed-link">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/CxhrSjHk-Vw"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div>
+                  <h1 class="main-content-title">Tin tức</h1>
+                  <ul class="list-content">
+                    <li class="list-content-item">
+                      <div class="list-content-image">
+                        <img src="../assets/images/item-content.png" alt="" />
+                      </div>
+                      <div class="list-content-box">
+                        <h3 class="list-content-title">
+                          Golden Time Event: Independence Day Bonus Rates!
+                        </h3>
+                        <p class="list-content-brief">
+                          In celebration the Declaration of Independence, we are
+                          hosting a special Golden Time Event! Starting at midnight,
+                          enjoy our 3x EXP, 3x Skill, and 3x Drop event!
+                        </p>
+                      </div>
+                    </li>
+                    <li class="list-content-item">
+                      <div class="list-content-image">
+                        <img src="../assets/images/item-content.png" alt="" />
+                      </div>
+                      <div class="list-content-box">
+                        <h3 class="list-content-title">
+                          Golden Time Event: Independence Day Bonus Rates!
+                        </h3>
+                        <p class="list-content-brief">
+                          In celebration the Declaration of Independence, we are
+                          hosting a special Golden Time Event! Starting at midnight,
+                          enjoy our 3x EXP, 3x Skill, and 3x Drop event!
+                        </p>
+                      </div>
+                    </li>
+                    <li class="list-content-item">
+                      <div class="list-content-image">
+                        <img src="../assets/images/item-content.png" alt="" />
+                      </div>
+                      <div class="list-content-box">
+                        <h3 class="list-content-title">
+                          Golden Time Event: Independence Day Bonus Rates!
+                        </h3>
+                        <p class="list-content-brief">
+                          In celebration the Declaration of Independence, we are
+                          hosting a special Golden Time Event! Starting at midnight,
+                          enjoy our 3x EXP, 3x Skill, and 3x Drop event!
+                        </p>
+                      </div>
+                    </li>
+                    <li class="list-content-item">
+                      <div class="list-content-image">
+                        <img src="../assets/images/item-content.png" alt="" />
+                      </div>
+                      <div class="list-content-box">
+                        <h3 class="list-content-title">
+                          Golden Time Event: Independence Day Bonus Rates!
+                        </h3>
+                        <p class="list-content-brief">
+                          In celebration the Declaration of Independence, we are
+                          hosting a special Golden Time Event! Starting at midnight,
+                          enjoy our 3x EXP, 3x Skill, and 3x Drop event!
+                        </p>
+                      </div>
+                    </li>
+                    <li class="list-content-item">
+                      <div class="list-content-image">
+                        <img src="../assets/images/item-content.png" alt="" />
+                      </div>
+                      <div class="list-content-box">
+                        <h3 class="list-content-title">
+                          Golden Time Event: Independence Day Bonus Rates!
+                        </h3>
+                        <p class="list-content-brief">
+                          In celebration the Declaration of Independence, we are
+                          hosting a special Golden Time Event! Starting at midnight,
+                          enjoy our 3x EXP, 3x Skill, and 3x Drop event!
+                        </p>
+                      </div>
+                    </li>
+                    <li class="list-content-item">
+                      <div class="list-content-image">
+                        <img src="../assets/images/item-content.png" alt="" />
+                      </div>
+                      <div class="list-content-box">
+                        <h3 class="list-content-title">
+                          Golden Time Event: Independence Day Bonus Rates!
+                        </h3>
+                        <p class="list-content-brief">
+                          In celebration the Declaration of Independence, we are
+                          hosting a special Golden Time Event! Starting at midnight,
+                          enjoy our 3x EXP, 3x Skill, and 3x Drop event!
+                        </p>
+                      </div>
+                    </li>
+                    <li class="list-content-item">
+                      <div class="list-content-image">
+                        <img src="../assets/images/item-content.png" alt="" />
+                      </div>
+                      <div class="list-content-box">
+                        <h3 class="list-content-title">
+                          Golden Time Event: Independence Day Bonus Rates!
+                        </h3>
+                        <p class="list-content-brief">
+                          In celebration the Declaration of Independence, we are
+                          hosting a special Golden Time Event! Starting at midnight,
+                          enjoy our 3x EXP, 3x Skill, and 3x Drop event!
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div class="mission-box">
-              <span class="title-mission">Nhiệm vụ vip</span>
-              <ul>
-                <li>Cắt cỏ</li>
-                <li>Nhặt lá</li>
-                <li>Đá ống bơ</li>
-                <li>Quét Nhà</li>
-                <li>Rửa bát</li>
-              </ul>
-            </div>
-            <div class="countdown-box">
-              <span class="countdown-title">Chương trình sẽ bắt đầu sau</span>
-              <div id="countdown-1"></div>
-            </div>
-          </div>
-          <div class="main-content">
-            <div class="line-header-content"></div>
-            <div class="embed-link">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/CxhrSjHk-Vw"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <div>
-              <h1 class="main-content-title">Tin tức</h1>
-              <ul class="list-content">
-                <li class="list-content-item">
-                  <div class="list-content-image">
-                    <img src="../assets/images/item-content.png" alt="" />
-                  </div>
-                  <div class="list-content-box">
-                    <h3 class="list-content-title">
-                      Golden Time Event: Independence Day Bonus Rates!
-                    </h3>
-                    <p class="list-content-brief">
-                      In celebration the Declaration of Independence, we are
-                      hosting a special Golden Time Event! Starting at midnight,
-                      enjoy our 3x EXP, 3x Skill, and 3x Drop event!
-                    </p>
-                  </div>
-                </li>
-                <li class="list-content-item">
-                  <div class="list-content-image">
-                    <img src="../assets/images/item-content.png" alt="" />
-                  </div>
-                  <div class="list-content-box">
-                    <h3 class="list-content-title">
-                      Golden Time Event: Independence Day Bonus Rates!
-                    </h3>
-                    <p class="list-content-brief">
-                      In celebration the Declaration of Independence, we are
-                      hosting a special Golden Time Event! Starting at midnight,
-                      enjoy our 3x EXP, 3x Skill, and 3x Drop event!
-                    </p>
-                  </div>
-                </li>
-                <li class="list-content-item">
-                  <div class="list-content-image">
-                    <img src="../assets/images/item-content.png" alt="" />
-                  </div>
-                  <div class="list-content-box">
-                    <h3 class="list-content-title">
-                      Golden Time Event: Independence Day Bonus Rates!
-                    </h3>
-                    <p class="list-content-brief">
-                      In celebration the Declaration of Independence, we are
-                      hosting a special Golden Time Event! Starting at midnight,
-                      enjoy our 3x EXP, 3x Skill, and 3x Drop event!
-                    </p>
-                  </div>
-                </li>
-                <li class="list-content-item">
-                  <div class="list-content-image">
-                    <img src="../assets/images/item-content.png" alt="" />
-                  </div>
-                  <div class="list-content-box">
-                    <h3 class="list-content-title">
-                      Golden Time Event: Independence Day Bonus Rates!
-                    </h3>
-                    <p class="list-content-brief">
-                      In celebration the Declaration of Independence, we are
-                      hosting a special Golden Time Event! Starting at midnight,
-                      enjoy our 3x EXP, 3x Skill, and 3x Drop event!
-                    </p>
-                  </div>
-                </li>
-                <li class="list-content-item">
-                  <div class="list-content-image">
-                    <img src="../assets/images/item-content.png" alt="" />
-                  </div>
-                  <div class="list-content-box">
-                    <h3 class="list-content-title">
-                      Golden Time Event: Independence Day Bonus Rates!
-                    </h3>
-                    <p class="list-content-brief">
-                      In celebration the Declaration of Independence, we are
-                      hosting a special Golden Time Event! Starting at midnight,
-                      enjoy our 3x EXP, 3x Skill, and 3x Drop event!
-                    </p>
-                  </div>
-                </li>
-                <li class="list-content-item">
-                  <div class="list-content-image">
-                    <img src="../assets/images/item-content.png" alt="" />
-                  </div>
-                  <div class="list-content-box">
-                    <h3 class="list-content-title">
-                      Golden Time Event: Independence Day Bonus Rates!
-                    </h3>
-                    <p class="list-content-brief">
-                      In celebration the Declaration of Independence, we are
-                      hosting a special Golden Time Event! Starting at midnight,
-                      enjoy our 3x EXP, 3x Skill, and 3x Drop event!
-                    </p>
-                  </div>
-                </li>
-                <li class="list-content-item">
-                  <div class="list-content-image">
-                    <img src="../assets/images/item-content.png" alt="" />
-                  </div>
-                  <div class="list-content-box">
-                    <h3 class="list-content-title">
-                      Golden Time Event: Independence Day Bonus Rates!
-                    </h3>
-                    <p class="list-content-brief">
-                      In celebration the Declaration of Independence, we are
-                      hosting a special Golden Time Event! Starting at midnight,
-                      enjoy our 3x EXP, 3x Skill, and 3x Drop event!
-                    </p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="right-sidebar">
-            <div class="btn-item-box">
-              <button class="btn-item">Vật phẩm</button>
-            </div>
-            <div class="right-sidebar-box">
-              <ul>
-                <li>
-                  <img src="../assets/images/anh vat pham.png" alt="" />
-                  <span class="price">50.000 Đ</span>
-                  <button class="btn-buy">Mua ngay</button>
-                </li>
-                <li>
-                  <img src="../assets/images/anh vat pham2.png" alt="" />
-                  <span class="price">50.000 Đ</span>
-                  <button class="btn-buy">Mua ngay</button>
-                </li>
-                <li>
-                  <img src="../assets/images/anh vat pham.png" alt="" />
-                  <span class="price">50.000 Đ</span>
-                  <button class="btn-buy">Mua ngay</button>
-                </li>
-                <li>
-                  <img src="../assets/images/anh vat pham2.png" alt="" />
-                  <span class="price">50.000 Đ</span>
-                  <button class="btn-buy">Mua ngay</button>
-                </li>
-                <li>
-                  <img src="../assets/images/anh vat pham.png" alt="" />
-                  <span class="price">50.000 Đ</span>
-                  <button class="btn-buy">Mua ngay</button>
-                </li>
-                <li>
-                  <img src="../assets/images/anh vat pham2.png" alt="" />
-                  <span class="price">50.000 Đ</span>
-                  <button class="btn-buy">Mua ngay</button>
-                </li>
-              </ul>
+            <div class="right-sidebar col-3 col-xs-12">
+              <div class="btn-item-box">
+                <button class="btn-item">Vật phẩm</button>
+              </div>
+              <div class="right-sidebar-box">
+                <ul>
+                  <li>
+                    <img src="../assets/images/anh vat pham.png" alt="" />
+                    <span class="price">50.000 Đ</span>
+                    <button class="btn-buy">Mua ngay</button>
+                  </li>
+                  <li>
+                    <img src="../assets/images/anh vat pham2.png" alt="" />
+                    <span class="price">50.000 Đ</span>
+                    <button class="btn-buy">Mua ngay</button>
+                  </li>
+                  <li>
+                    <img src="../assets/images/anh vat pham.png" alt="" />
+                    <span class="price">50.000 Đ</span>
+                    <button class="btn-buy">Mua ngay</button>
+                  </li>
+                  <li>
+                    <img src="../assets/images/anh vat pham2.png" alt="" />
+                    <span class="price">50.000 Đ</span>
+                    <button class="btn-buy">Mua ngay</button>
+                  </li>
+                  <li>
+                    <img src="../assets/images/anh vat pham.png" alt="" />
+                    <span class="price">50.000 Đ</span>
+                    <button class="btn-buy">Mua ngay</button>
+                  </li>
+                  <li>
+                    <img src="../assets/images/anh vat pham2.png" alt="" />
+                    <span class="price">50.000 Đ</span>
+                    <button class="btn-buy">Mua ngay</button>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
